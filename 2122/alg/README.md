@@ -5,7 +5,7 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 
 ## Podmínky zápočtu
 
-- Aktivní účast na cvičení
+- Aktivní účast na cvičení.
 - Nejméně **70%** bodů z domácích cvičení.
 - Udělení zápočtu je **podmínkou** k účasti na zkoušce.
 
