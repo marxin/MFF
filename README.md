@@ -3,7 +3,7 @@
 ## Výuka 2021/2022
 V zimním semestru vyučuji tyto předměty:
 
-* *[Algoritmizace](2122/alg)* (úterý 12:20 v N8)
+* **[Algoritmizace](2122/alg)** (úterý 12:20 v N8)
 
 ## Konzultace
 
