@@ -8,4 +8,4 @@ V zimním semestru vyučuji tyto předměty:
 ## Konzultace
 
 Potřebujete-li cokoliv vysvětliv nebo máte nějaký problém, ozvěte se mi na marxin.liska@gmail.com
-nebo se mnou domluvte na cvičení.
+nebo se se mnou domluvte na cvičení.
