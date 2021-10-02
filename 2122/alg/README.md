@@ -6,11 +6,12 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 ## Podmínky zápočtu
 
 - Aktivní účast na cvičení
-- Nejméně *70%* bodů z domácích cvičení.
-- Udělení zápočku je podmínkou k účasti na zkoušce.
+- Nejméně **70%** bodů z domácích cvičení.
+- Udělení zápočku je **podmínkou** k účasti na zkoušce.
 
 ## Domácí úkoly
 
+- Budeme používat [ReCoEx](https://recodex.mff.cuni.cz/)
 - Úlohy budou zadávány zhruba ob-týden.
 - Každá úloha bude bodována 10 body a jejich obtížnost se bude ztěžovat.
 - Na úkol bude týden.
