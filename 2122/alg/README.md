@@ -19,12 +19,12 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 
 ## Co bylo na cvičení
 
-1. Jsou dány rovnoramenné váhy a n kuliček.
-   Navrhněte algoritmus, který najde nejtěžší kuličku na co nejmenší počet vážení.
+* Organizační info - viz. READMEčka v repozitáři
 
-1. Nejtěžší i nejlehčí kuličku s použitím nejvýše
+* Jsou dány rovnoramenné váhy a n kuliček.
 
-   ```math
-   3 \lceil n / 2 \rceil⎦
-   ```
-  vážení.
+  * Navrhněte algoritmus, který najde nejtěžší kuličku na co nejmenší počet vážení.
+
+  * Nejtěžší i nejlehčí kuličku s použitím nejvýše 3⎣n/2⎦ vážení.
+
+  * Druhou nejtěžší kuličku s použitím nejvýše n-2+⎡log2n⎤ vážení.
