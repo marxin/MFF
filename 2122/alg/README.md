@@ -16,3 +16,15 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 - Každá úloha bude bodována 10 body a jejich obtížnost se bude ztěžovat.
 - Na úkol bude týden.
 - Doporučuji začít řešit úlohy hned z počátku semestru.
+
+## Co bylo na cvičení
+
+1. Jsou dány rovnoramenné váhy a n kuliček.
+   Navrhněte algoritmus, který najde nejtěžší kuličku na co nejmenší počet vážení.
+
+1. Nejtěžší i nejlehčí kuličku s použitím nejvýše
+
+   ```math
+   3 \lceil n / 2 \rceil⎦
+   ```
+  vážení.
