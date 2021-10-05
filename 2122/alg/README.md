@@ -1,6 +1,6 @@
 # Cvičení z Algoritmizace (úterý 12:20 v N8)
 
-Na cvičení navazuje cvičení z **Programování 1**, které vede kolega **Lukáš Kyjánek** (také v N8).
+Na cvičení navazuje cvičení z **[Programování 1](https://lukyjanek.github.io/teaching/21-22/NPRG030.html)**, které vede kolega **Lukáš Kyjánek** (také v N8).
 Studenti by měli být zapsaní na odpovídající cvičení neb program cvičení bude logicky provázán.
 
 ## Podmínky zápočtu
