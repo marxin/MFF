@@ -20,8 +20,8 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 ## Co bylo na cvičení
 
 * Organizační info - viz. READMEčka v repozitáři
-
 * Jsou dány rovnoramenné váhy a n kuliček.
   * Navrhněte algoritmus, který najde nejtěžší kuličku na co nejmenší počet vážení.
   * Nejtěžší i nejlehčí kuličku s použitím nejvýše 3⎣n/2⎦ vážení.
   * Druhou nejtěžší kuličku s použitím nejvýše n-2+⎡log2n⎤ vážení.
+* Zadání DCV - lámání čokolády - viz ReCodEx.
