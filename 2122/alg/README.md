@@ -21,7 +21,7 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 
 ### 5.10.2020
 
-* Organizační info - viz. READMEčka v repozitáři
+* Organizační info - viz. README v repozitáři
 * Jsou dány rovnoramenné váhy a n kuliček.
   * Navrhněte algoritmus, který najde nejtěžší kuličku na co nejmenší počet vážení.
   * Nejtěžší i nejlehčí kuličku s použitím nejvýše 3⎣n/2⎦ vážení.
