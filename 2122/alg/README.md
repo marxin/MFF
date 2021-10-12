@@ -44,3 +44,16 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
   Dokážete vymyslet způsob, jak dostat všechny sklenice do jedné orientace?
 
   Pozn: Čaroděj otáčí stolem úmyslně pro nás špatně, takže otáčet sklenice náhodně nás nikam nedostane.
+
+* Příklady na velké O, Omega a Theta:
+
+  * n^2 = O(n^3)
+  * n^3 = O(n^2)
+  * f = O(g)  ->  g = O(f)
+
+  Následující na rozmyšlení na doma, vrátíme se k nim na dalším cvičení:
+
+  * f = O(g)  ->  g = OMEGA(f)
+  * f = THETA(g)  ->  g = O(f)
+  * f = O(g)  ->  1/f = O(g)
+  * f = O(g)  ->  1/f = O(1/g)
