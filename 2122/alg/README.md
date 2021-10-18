@@ -14,7 +14,7 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 - Budeme používat [ReCodEx](https://recodex.mff.cuni.cz/), návod naleznete zde: https://github.com/ReCodEx/wiki/wiki/User-documentation.
 - Úlohy budou zadávány zhruba ob-týden.
 - Každá úloha bude bodována 10 body a jejich obtížnost se bude ztěžovat.
-- Na úkol bude týden.
+- Na úkol bude <strike>týden</strike> 1-2 týdny (v závislosti na úloze).
 - Doporučuji začít řešit úlohy hned z počátku semestru.
 
 ## Co bylo na cvičení
