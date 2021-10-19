@@ -57,3 +57,34 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
   * f = THETA(g)  ->  g = O(f)
   * f = O(g)  ->  1/f = O(g)
   * f = O(g)  ->  1/f = O(1/g)
+
+### 19.10.2021
+
+* Ukázána 2 řešení DÚ (invariand a matematická indukce)
+* Prošli jsme poslední 4 tvrzení z minulého cvičení
+
+* Nalezení prvku v setříďeném poli (listu)
+  - Napsali jsme na tabuli algoritmus na binární vyhledávání a ukázali si detaily, které
+    je dobré si rozmyslet. Skončili jsme s něčím jako:
+
+  ```python3
+  def binsearch(a, x):
+      i = 0
+      j = len(a) - 1
+      k = (i + j) // 2
+
+      # empty list
+      if len(a) == 0:
+          return -1
+
+      while a[k] != x and i <= j:
+          if x > a[k]:
+              i = k + 1
+          else:
+              j = k - 1
+          k = (i + j) // 2
+
+      return k if a[k] == x else -1
+  ```
+
+  - Jako rozšíření chceme nalézt index **j** největšího prvku **<= x**.
