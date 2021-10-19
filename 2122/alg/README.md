@@ -85,7 +85,10 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
               j = k - 1
           k = (i + j) // 2
 
-      return k if a[k] == x else -1
+      if a[k] == x:
+          return k
+      else:
+          return -1
   ```
 
   - Jako rozšíření chceme nalézt index **j** největšího prvku **<= x**.
