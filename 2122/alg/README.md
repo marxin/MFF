@@ -65,7 +65,8 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 
 * Nalezení prvku v setříďeném poli (listu)
   - Napsali jsme na tabuli algoritmus na binární vyhledávání a ukázali si detaily, které
-    je dobré si rozmyslet. Skončili jsme s něčím jako:
+    je dobré si rozmyslet.
+    Skončili jsme s následujícím algoritmem (až na přejmenování identifikátorů):
 
   ```python3
   def binsearch(a, x):
@@ -88,3 +89,7 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
   ```
 
   - Jako rozšíření chceme nalézt index **j** největšího prvku **<= x**.
+    Ukázali jsme si, že lze vyjíz t předchozího algoritmu a že je jenom třeba
+    rozmyslet podmínky za cyklem. Dokončíme příště.
+
+* Zadání DCV - prvočísla v intervalu - viz ReCodEx.
