@@ -101,13 +101,13 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 
 * Dokončili jsme úlohu z minula na hledání největšího prvku **<= x**.
 
-* Funkce co vrátí True pokud je uzávorkování ze znaků '()' správně.
-* Stejná funkce, pokud máme '()[]' závorky. Už to tak lehce nepůjde jako v minulém případě.
+* Funkce co vrátí True pokud je uzávorkování ze znaků `()` správně.
+* Stejná funkce, pokud máme `()[]` závorky. Už to tak lehce nepůjde jako v minulém případě.
   - Při více závorkách by se hodil nějaký dictionary, abych neduplikovali kód.
 
 * Máme posloupnost celých čísel a chceme nalézt souvislý úsek takový, že má největší součet.
   S tím, že hledáme jenom sumu, není třeba vracet začátek a konec úseku.
-  Tedy např. pro [-10, 1, 5, 2, -2, 1] je největší úsek [1, 5, 2] a má sumu 8.
+  Tedy např. pro `[-10, 1, 5, 2, -2, 1]` je největší úsek `[1, 5, 2]` a má sumu 8.
 
   - Chceme algoritmus v čase O(N^3), O(N^2) a O(N). Poslední 2 varianty dokončíme příště.
 
