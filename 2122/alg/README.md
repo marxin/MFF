@@ -112,3 +112,27 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
   - Chceme algoritmus v čase O(N^3), O(N^2) a O(N). Poslední 2 varianty dokončíme příště.
 
 * Zadání DCV - prioritní fronta - viz ReCodEx.
+
+### 9.11.2021
+
+* Dokončili jsme úlohu z minule - ukázali si algoritmus v čase O(N).
+
+* Vypsat všechna korektní uzávorkování pomocí N párů závorek.
+
+### 16.11.2021
+
+* Vypsat všechny rostoucí posloupnosti tvořené čísly z množiny `{1, 2, ..., N}`.
+
+* Začali jsme s jednosměrným spojovým seznamem pro:
+
+  ```
+  class Node:
+    def __init__(self, value):
+      self.value = value
+      self.next = None
+  ```
+
+  Implementovali jsme metody **insert0** (přidávání na začátek), **size** (délka seznamu)
+  a **append** (přidávání na konec).
+
+* Zadání DCV - Rozklad čísla na K sčítanců - viz ReCodEx.
