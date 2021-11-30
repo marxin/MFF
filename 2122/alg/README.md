@@ -136,3 +136,12 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
   a **append** (přidávání na konec).
 
 * Zadání DCV - Rozklad čísla na K sčítanců - viz ReCodEx.
+
+### 23.11.2021
+
+* Ukázali jsme si řešení DCV - prioritní fronta.
+
+* BVS (binární vyhledávací stromy) - ukázali jsme si základní metody jako nalezení
+  maxima, určení počtu vrcholů a hloubky stromu.
+
+* Nalezení jedné lehčí kuličky ze 7 stejných pomocí vážení na rovn. vahách.
