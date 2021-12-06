@@ -145,3 +145,10 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
   maxima, určení počtu vrcholů a hloubky stromu.
 
 * Nalezení jedné lehčí kuličky ze 7 stejných pomocí vážení na rovn. vahách.
+
+### 30.11.2021
+
+* Zabývali jsme se [Loydovou patnáctkou](https://en.wikipedia.org/wiki/15_puzzle) - ukázali jsme si
+  jak reprezentovat stav, zda prohledávat do šířky či hloubky, jak velký je statový prostor, jaké použít
+  datové struktury a tak dále. Na úloze jsme si ukázali, jak přistupovat k návrhu algoritmu.
+
