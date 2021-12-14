@@ -160,4 +160,4 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 
 ### 14.12.2021
 
-* 5ešili jsme problém batohu v pseudo-polynomiálním čase a ukázali jsme si možné řešení úlohy.
+* Řešili jsme **problém batohu** v pseudo-polynomiálním čase a ukázali jsme si možné řešení úlohy.
