@@ -152,3 +152,12 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
   jak reprezentovat stav, zda prohledávat do šířky či hloubky, jak velký je statový prostor, jaké použít
   datové struktury a tak dále. Na úloze jsme si ukázali, jak přistupovat k návrhu algoritmu.
 
+### 7.12.2021
+
+* Ukázali jsme si implementaci Loydovy patnácky a vyzkoušeli v praxi, jak se algoritmus chová pro různé velikosti,
+  různé způsoby průchodu stavovým prostorem a jak dobrá řešení umí nalézt. Zopakovali jsme si principy jako prořezávání,
+  heuristika a vhodné datové struktury.
+
+### 14.12.2021
+
+* 5ešili jsme problém batohu v pseudo-polynomiálním čase a ukázali jsme si možné řešení úlohy.
