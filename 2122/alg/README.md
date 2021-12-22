@@ -161,3 +161,12 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 ### 14.12.2021
 
 * Řešili jsme **problém batohu** v pseudo-polynomiálním čase a ukázali jsme si možné řešení úlohy.
+
+### 21.12.2021
+
+* Ukázali jsme si referenční řešení DCV - Průchod labyrintem
+* Zopakovali jsme si reprezentace grafu v programu.
+* Hledali jsme algoritmus, který vypíše počet trojúhelníků (K3) v grafu.
+* Dále jsme měli zadaný strom a variantu orientovaných hran, které ukazují ke kořeni.
+  Otázka zněla, zda se jedná o zakořeněný strom? Za doma na rozmyšlení, jak by se algoritmus změnil pokud
+  by hrany ukazovaly od kořene k listům.
