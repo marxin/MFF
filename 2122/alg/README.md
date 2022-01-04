@@ -178,6 +178,7 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 
   **Tipy a úkoly pro úlohu**:
 
+  * Stanovte složitost algoritmu a odhadněte počet kroků pro konkrétní vstup pro **Part One**.
   * Zkuste si každý cuboid uložit do třídy `Cuboid`.
   * Napište
 
@@ -187,4 +188,13 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
     ...
     ```
 
-    která naparsuje řádek vstupu a použije **list comprehension** (např. `[x for x in values if x == 12345]`)
+    která naparsuje řádek vstupu, použije **list comprehension** (např. `[x for x in values if x == 12345]`)
+    a vrátí instanci třídy `Cuboid`.
+
+  * Naimplementujte funkci `Cuboid.contains_pixel(pixel)`, která vrátí `True` pokud bod (pixel) náleží do kvádru.
+
+  **Úkoly pro Part Two**:
+
+  * Napište metodu `Cuboid.fully_contains(self, other)`, která vrátí `True` pokud `other` kvádr je celý uvnitř `self`.
+  * Napište metodu `Cuboid.intersects(self, other)`, která vrátí `True` pokud `other` kvádr
+    má nějaký průnik s kvádrem `self`.
