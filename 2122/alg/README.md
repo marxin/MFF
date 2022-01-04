@@ -170,3 +170,21 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 * Dále jsme měli zadaný strom a variantu orientovaných hran, které ukazují ke kořeni.
   Otázka zněla, zda se jedná o zakořeněný strom? Za doma na rozmyšlení, jak by se algoritmus změnil pokud
   by hrany ukazovaly od kořene k listům.
+
+### 4.1.2022
+
+* Zkusíme si naprogramovat úlohu z Advent of Code:
+  https://adventofcode.com/2021/day/22
+
+  **Tipy a úkoly pro úlohu**:
+
+  * Zkuste si každý cuboid uložit do třídy `Cuboid`.
+  * Napište
+
+    ```
+    @classmethod
+    def parse_line(cls, line):
+    ...
+    ```
+
+    která naparsuje řádek vstupu a použije **list comprehension** (např. `[x for x in values if x == 12345]`)
