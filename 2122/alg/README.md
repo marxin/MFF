@@ -195,9 +195,14 @@ Studenti by měli být zapsaní na odpovídající cvičení neb program cvičen
 
   **Úkoly pro Part Two**:
 
+  * Stanovte složitost algoritmu a odhadněte počet kroků pro konkrétní vstup pro Part Two.
   * Napište metodu `Cuboid.fully_contains(self, other)`, která vrátí `True` pokud `other` kvádr je celý uvnitř `self`.
   * Napište metodu `Cuboid.intersects(self, other)`, která vrátí `True` pokud `other` kvádr
     má nějaký průnik s kvádrem `self`.
+  * Napište si pár testů pro zmíněné metody (stačí pomocí `assert value == 1234` v programu).
+  * Zkuste napsat metodu, která pro dvojici kvádrů vyrobí všechny pod-kvádry takové, že
+    každý podkvádr bude celý uvnitř jednoho nebo (a) druhého kvádru. Možná se bude hodit změnit reprezentaci
+    z uzavřeného intervalu [start_x, end_x] na [start_x, end_x + 1).
 
   **Příklad vstupu pro Part Two**:
 
