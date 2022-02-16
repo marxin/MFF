@@ -42,5 +42,11 @@ Cvičení navazuje na Programování 1 z minulého semestru.
 
 #### Založení projektu v C#, předklad a spuštění programu
 
-Postupujte dle hezkého návodu od kolegy Töpfera:
-https://gimli.ms.mff.cuni.cz/~topfermi/vyuka/2122/NPRG031/#uzitecne-info
+Postupujte [dle hezkého návodu](https://gimli.ms.mff.cuni.cz/~topfermi/vyuka/2122/NPRG031/#uzitecne-info) od kolegy M. Töpfera.
+
+#### Úlohy k procvičování
+
+##### Vstup a Výstup
+
+1. Napiště program, který se optá a jméno a pak ho osloví: např. `Hello Martin`.
+
