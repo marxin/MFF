@@ -46,7 +46,25 @@ Postupujte [dle hezkého návodu](https://gimli.ms.mff.cuni.cz/~topfermi/vyuka/2
 
 #### Úlohy k procvičování
 
+Doporučuju si otevřít [první přednášku](https://ksvi.mff.cuni.cz/~holan/Pgm-2_2021_01.pdf) a hledat v ní.
+
 ##### Vstup a Výstup
 
 1. Napiště program, který se optá a jméno a pak ho osloví: např. `Hello Martin`.
+   Zkuste pro výstup použít [$-notaci](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated). 
 
+##### Cykly
+
+1. Vypište čísla od 1 do N, která nejsou dělitelná 3.
+1. Sečtěte čísla od 1 do N.
+1. Upravte program, aby sčítal jen násobky 3 a 5. Např. pro `N=17` je správný výsledek `60`.
+1. Najděte maximum z pole čísel.
+1. Najděte pozice všech největších prvků v poli.
+1. Vypište příštích 20 přestupných let.
+
+##### Switch
+
+1. Za použití klíčového slova `switch`, vypiště pro daný string počet znaků, kterou jsou buď `samohláska`,
+   `mezera` a nebo `tečka`.
+1. Pro dané číslo vypište text "dělitelné třemi", "dělitelné sedmi" nebo "dělitelné deseti" pokud dané číslo
+   splňuje danou dělitelnost.
