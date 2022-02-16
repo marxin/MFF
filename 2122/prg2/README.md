@@ -55,8 +55,8 @@ Doporučuju si otevřít [první přednášku](https://ksvi.mff.cuni.cz/~holan/P
 
 ##### Cykly
 
-1. Vypište čísla od 1 do N, která nejsou dělitelná 3.
-1. Sečtěte čísla od 1 do N.
+1. Vypište čísla od 1 do `N`, která nejsou dělitelná 3.
+1. Sečtěte čísla od 1 do `N`.
 1. Upravte program, aby sčítal jen násobky 3 a 5. Např. pro `N=17` je správný výsledek `60`.
 1. Najděte maximum z pole čísel.
 1. Najděte pozice všech největších prvků v poli.
@@ -66,5 +66,15 @@ Doporučuju si otevřít [první přednášku](https://ksvi.mff.cuni.cz/~holan/P
 
 1. Za použití klíčového slova `switch`, vypiště pro daný string počet znaků, kterou jsou buď `samohláska`,
    `mezera` a nebo `tečka`.
-1. Pro dané číslo vypište text "dělitelné třemi", "dělitelné sedmi" nebo "dělitelné deseti" pokud dané číslo
+1. Pro dané číslo vypište text `dělitelné třemi`, `dělitelné sedmi` nebo `dělitelné deseti` pokud dané číslo
    splňuje danou dělitelnost.
+
+##### Funkce
+
+1. Napište funkci, která vrací maximum ze svých dvou celočíselných argumentů.
+1. Napište funkci `Compare`, která dostane dvě čísla a, b a vrací 1 pro a > b, 0 pro a == b a -1 pro a < b.
+   Místo 1 a -1 se dají použít libovolná kladná a záporná čísla. To je standardní způsob, jak se v C# udává výsledek porovnání.
+1. Napište funkci `IsEven(n)`, která přijme celé číslo jako argument a vrací true, je-li číslo sudé, a false, je-li liché.
+1. Nyní napište funkci `IsOdd(n)`, která vrací true, je-li n liché a false, je-li sudé. Využijte funkci `IsEven`.
+1. Napište funkci, která počítá ciferný součet čísla.
+1. Napište funkci, která dostane číslo (v desítkové soustavě) a vypíše ho ve dvojkové soustavě.
