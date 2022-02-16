@@ -34,5 +34,13 @@ Cvičení navazuje na Programování 1 z minulého semestru.
   ale nám stačí prvních 60 a potom to samé, [ale detailněji](https://www.youtube.com/watch?v=HkdAHXoRtos&ab_channel=Fireship)).
 
 
+## Co bylo na cvičení
 
+### 18.2.2022 (1. cvičení)
 
+* Organizační info - viz. README v repozitáři
+
+#### Založení projektu v C#, předklad a spuštění programu
+
+Postupujte dle hezkého návodu od kolegy Töpfera:
+https://gimli.ms.mff.cuni.cz/~topfermi/vyuka/2122/NPRG031/#uzitecne-info
