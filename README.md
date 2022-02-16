@@ -4,7 +4,7 @@
 
 V letním semestru vyučuji tyto předměty:
 
-* **[Programování 2](2122/prg2)** (úterý 10:40 v N1)
+* **[Programování 2](2122/prg2)** (pátek 10:40 v N1)
 
 V zimním semestru vyučuji tyto předměty:
 
