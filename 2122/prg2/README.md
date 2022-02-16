@@ -71,10 +71,9 @@ Doporučuju si otevřít [první přednášku](https://ksvi.mff.cuni.cz/~holan/P
 
 ##### Funkce
 
-1. Napište funkci, která vrací maximum ze svých dvou celočíselných argumentů.
+1. Napište funkci, která vrací minimum ze svých třech celočíselných argumentů.
 1. Napište funkci `Compare`, která dostane dvě čísla a, b a vrací 1 pro a > b, 0 pro a == b a -1 pro a < b.
    Místo 1 a -1 se dají použít libovolná kladná a záporná čísla. To je standardní způsob, jak se v C# udává výsledek porovnání.
-1. Napište funkci `IsEven(n)`, která přijme celé číslo jako argument a vrací true, je-li číslo sudé, a false, je-li liché.
-1. Nyní napište funkci `IsOdd(n)`, která vrací true, je-li n liché a false, je-li sudé. Využijte funkci `IsEven`.
+1. Napište funkci `IsPositive(n)`, která přijme celé číslo jako argument a vrací true, je-li číslo nezáporné.
+1. Nyní napište funkci `IsNegativeOrZeno(n)`, která vrací true, není-li n kladné. Využijte funkci z předešlého bodu.
 1. Napište funkci, která počítá ciferný součet čísla.
-1. Napište funkci, která dostane číslo (v desítkové soustavě) a vypíše ho ve dvojkové soustavě.
