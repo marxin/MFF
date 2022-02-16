@@ -6,9 +6,14 @@ Cvičení navazuje na Programování 1 z minulého semestru.
 
 - Aktivní účast na cvičení.
 - Nejméně **70%** bodů z domácích cvičení.
+  * Opět budeme používat [Recodex](https://recodex.mff.cuni.cz/).
+  * Úlohy budou zadávány zhruba ob-týden.
+  * Každá úloha bude bodována 10 body a jejich obtížnost se bude ztěžovat.
+
 - **Zápočtový test** - Podobně jako v zimním semestru bude třeba naprogramovat funkční řešení zadané úlohy za 90 min.
-Během testu bude možné používat libovolné poznámky, slajdy, dokumentaci jazyka atd.
-První bude na posledním cvičení, další termíny budou během zkouškového období dle potřeby.
+  Během testu bude možné používat libovolné poznámky, slajdy, dokumentaci jazyka atd.
+  První bude na posledním cvičení, další termíny budou během zkouškového období dle potřeby.
+
 - **Zápočtový program** - Rozumně složitý program v jazyce C#.
   * Zadání zápočtového programu musí být schválené do **1.5.** (2 studenti nebudou mít stejné zadání) a pak
     na něm začnete pracovat.
