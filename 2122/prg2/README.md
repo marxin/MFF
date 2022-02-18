@@ -65,7 +65,7 @@ Doporučuju si otevřít [první přednášku](https://ksvi.mff.cuni.cz/~holan/P
 ##### Switch
 
 1. Za použití klíčového slova `switch`, vypiště pro daný string počet znaků, kterou jsou buď `samohláska`,
-   `mezera` a nebo `tečka`.
+   `mezera` a nebo `tečka` (můžete vyzkoušet použití `foreach` cyklu).
 1. Pro dané číslo vypište text `dělitelné třemi`, `dělitelné sedmi` nebo `dělitelné deseti` pokud dané číslo
    splňuje danou dělitelnost.
 
@@ -74,7 +74,7 @@ Doporučuju si otevřít [první přednášku](https://ksvi.mff.cuni.cz/~holan/P
 1. Napište funkci, která vrací minimum ze svých třech celočíselných argumentů.
 1. Napište funkci `Compare`, která dostane dvě čísla a, b a vrací 1 pro a > b, 0 pro a == b a -1 pro a < b.
    Místo 1 a -1 se dají použít libovolná kladná a záporná čísla. To je standardní způsob, jak se v C# udává výsledek porovnání.
-   (Šlo by to udělat i bez porovnání? Jak se to bude chovat pro vstup např. `Int32.MinValue` a `Int32.MaxValue`?)
+   (Šlo by to udělat i bez porovnání? Jak se to bude chovat pro vstup např. `Int32.MinValue` a `Int32.MaxValue`)?
 1. Napište funkci `IsPositive(n)`, která přijme celé číslo jako argument a vrací true, je-li číslo nezáporné.
 1. Nyní napište funkci `IsNegativeOrZero(n)`, která vrací true, není-li n kladné. Využijte funkci z předešlého bodu.
 1. Napište funkci, která počítá ciferný součet čísla.
