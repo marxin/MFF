@@ -85,17 +85,16 @@ Doporučuju si otevřít [první přednášku](https://ksvi.mff.cuni.cz/~holan/P
 #### Úlohy k procvičování
 
 1. Napiště funkci `IsPalindromic`, která pro daný řetězec vrátí `true` pokud je palindrom (např. `kajak`), jinak `false`.
-
 1. Implementujte funkci `MostFrequentWord`, která dostane na vstupu řetězec. Ten rozdělte na slova (mezera odděluje slovo)
 a vraťte nejčastější slovo. Použijte třídu `Dictionary`.
-
 1. Napiště funkci, která vrátí pole `int[]` v opačném pořadí. Pole modifikujte "in place", bez volání funkce `Array.Reverse` nebo
 podobné funkce.
-
 1. Napiště funkci, která udělá interleave 2 polí, tedy např. pro `[1, 2, 3]` a `[10, 11, 12]` vrátí `[1, 10, 2, 11, 3, 12]`.
 Můžete předpokládat, že pole jsou stejně dlouhá.
-
 1. Napiště funkci, která udělá rotaci o `n` prvků, tedy prvních `n` prvků dá na konec pole. Podobně jako v minulém bodě, implementujte
 "in place".
-
-1. Implementujte funkci `FindMinMax`, která vrátí tuple (`(int min, int max)`), jenž obsahuje minimum a maximum pro pole hodnot na vstupu.
+1. Implementujte funkci `FindMinMax`, která vrátí `tuple` (`(int min, int max)`), jenž obsahuje minimum a maximum pro pole hodnot na vstupu.
+Dokumentaci k `tuple` naleznete [zde](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples).
+1. Vytvořte dvě množiny třídy `HashSet`, do první vložte sudá kladná číslo menží než 20. Do druhé pak kladná čísla dělitelná 6 menší než 100.
+Poté vypiště průnik, sjednocení a rozdíl obo množin.
+1. Implementujte libovolný sort (bubble sort, insert sort, select sort).
