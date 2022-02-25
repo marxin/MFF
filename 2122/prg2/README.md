@@ -98,3 +98,19 @@ Dokumentaci k `tuple` naleznete [zde](https://docs.microsoft.com/en-us/dotnet/cs
 1. Vytvořte dvě množiny třídy `HashSet`, do první vložte sudá kladná číslo menží než 20. Do druhé pak kladná čísla dělitelná 6 menší než 100.
 Poté vypiště průnik, sjednocení a rozdíl obo množin.
 1. Implementujte libovolný sort (bubble sort, insert sort, select sort).
+
+
+##### String
+
+1. Pro daný string na vstupu (např. `Hello world.` vraťte podřetězec, který je obdobou následujících Python příkazů. Použijte
+   volání funkce `Substring`:
+
+  1. `s[5:]`
+  1. `s[1:5]`
+  1. `s[:-3]`
+  1. `s[-5:]`
+  1. `s[-5:-3]`
+  1. `s[4]`
+  1. `s[-1]`
+  1. `s[::-1]`
+  1. `s[1::2]`
