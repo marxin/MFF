@@ -78,3 +78,24 @@ Doporučuju si otevřít [první přednášku](https://ksvi.mff.cuni.cz/~holan/P
 1. Napište funkci `IsPositive(n)`, která přijme celé číslo jako argument a vrací true, je-li číslo nezáporné.
 1. Nyní napište funkci `IsNegativeOrZero(n)`, která vrací true, není-li n kladné. Využijte funkci z předešlého bodu.
 1. Napište funkci, která počítá ciferný součet čísla.
+
+
+### 25.2.2022 (2. cvičení)
+
+#### Úlohy k procvičování
+
+1. Napiště funkci `IsPalindromic`, která pro daný řetězec vrátí `true` pokud je palindrom (např. `kajak`), jinak `false`.
+
+1. Implementujte funkci `MostFrequentWord`, která dostane na vstupu řetězec. Ten rozdělte na slova (mezera odděluje slovo)
+a vraťte nejčastější slovo. Použijte třídu `Dictionary`.
+
+1. Napiště funkci, která vrátí pole `int[]` v opačném pořadí. Pole modifikujte "in place", bez volání funkce `Array.Reverse` nebo
+podobné funkce.
+
+1. Napiště funkci, která udělá interleave 2 polí, tedy např. pro `[1, 2, 3]` a `[10, 11, 12]` vrátí `[1, 10, 2, 11, 3, 12]`.
+Můžete předpokládat, že pole jsou stejně dlouhá.
+
+1. Napiště funkci, která udělá rotaci o `n` prvků, tedy prvních `n` prvků dá na konec pole. Podobně jako v minulém bodě, implementujte
+"in place".
+
+1. Implementujte funkci `FindMinMax`, která vrátí tuple (`(int min, int max)`), jenž obsahuje minimum a maximum pro pole hodnot na vstupu.
