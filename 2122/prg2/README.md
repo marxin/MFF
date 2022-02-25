@@ -105,12 +105,14 @@ Poté vypiště průnik, sjednocení a rozdíl obo množin.
 1. Pro daný string na vstupu (např. `Hello world.` vraťte podřetězec, který je obdobou následujících Python příkazů. Použijte
    volání funkce `Substring`:
 
-  1. `s[5:]`
-  1. `s[1:5]`
-  1. `s[:-3]`
-  1. `s[-5:]`
-  1. `s[-5:-3]`
-  1. `s[4]`
-  1. `s[-1]`
-  1. `s[::-1]`
-  1. `s[1::2]`
+```
+s[5:]
+s[1:5]
+s[:-3]
+s[-5:]
+s[-5:-3]
+s[4]
+s[-1]
+s[::-1]
+s[1::2]
+```
