@@ -92,8 +92,8 @@ podobné funkce.
 1. Napiště funkci, která udělá interleave 2 polí, tedy např. pro `[1, 2, 3]` a `[10, 11, 12]` vrátí `[1, 10, 2, 11, 3, 12]`.
 Můžete předpokládat, že pole jsou stejně dlouhá.
 1. Napiště funkci, která udělá rotaci o `n` prvků, tedy prvních `n` prvků dá na konec pole. Podobně jako v minulém bodě, implementujte
-"in place".
-1. Implementujte funkci `FindMinMax`, která vrátí `tuple` (`(int min, int max)`), jenž obsahuje minimum a maximum pro pole hodnot na vstupu.
+"in place". Tedy pro `[1, 2, 3, 4, 5]` a `n=2` bude výsledek `[3, 4, 5, 1, 2]`.
+1. Implementujte funkci `FindMinMax`, která vrátí `tuple` `(int min, int max)`, jenž obsahuje minimum a maximum pro pole hodnot na vstupu.
 Dokumentaci k `tuple` naleznete [zde](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples).
 1. Vytvořte dvě množiny třídy `HashSet`, do první vložte sudá kladná číslo menží než 20. Do druhé pak kladná čísla dělitelná 6 menší než 100.
 Poté vypiště průnik, sjednocení a rozdíl obo množin.
