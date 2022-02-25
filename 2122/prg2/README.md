@@ -95,7 +95,7 @@ Můžete předpokládat, že pole jsou stejně dlouhá.
 "in place". Tedy pro `[1, 2, 3, 4, 5]` a `n=2` bude výsledek `[3, 4, 5, 1, 2]`.
 1. Implementujte funkci `FindMinMax`, která vrátí `tuple` `(int min, int max)`, jenž obsahuje minimum a maximum pro pole hodnot na vstupu.
 Dokumentaci k `tuple` naleznete [zde](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples).
-1. Vytvořte dvě množiny třídy `HashSet`, do první vložte sudá kladná číslo menží než 20. Do druhé pak kladná čísla dělitelná 6 menší než 100.
+1. Vytvořte dvě množiny třídy `HashSet`, do první vložte sudá kladná číslo menší než 20. Do druhé pak kladná čísla dělitelná 6 menší než 100.
 Poté vypiště průnik, sjednocení a rozdíl obo množin.
 1. Implementujte libovolný sort (bubble sort, insert sort, select sort).
 
