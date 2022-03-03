@@ -126,16 +126,92 @@ Implementujte 2 třídy (`Square` a `Circle`), které budou implementovat násle
 ```c#
 interface IShape
 {
+    /* Return description of a shape.
+       Examples: "Square[3x3]" where 3 is edge size of the square
+                 "Circle[4]" where 4 is diameter of the circle
+       */
     string Describe();
 
+    /* Print to console the shape:
+
+       ##
+       ##
+
+       will be printed for a Square with size == 2.
+
+       ...
+       ...
+       ...
+
+       will be printed for a Square with size == 3 that is transparent.
+
+       For circles, print 'o' * diameter for non-transparent Circle,
+       and '.' * diameter for transparent one.
+
+       Example:
+       ooooo
+
+       circle with d == 5
+
+       */
     void Print();
 
+    /* Multiple size of a shape if the multiplier is positive number.
+       In that case, true is returned. Otherwise, false is returned
+       and the shape is unchanged. */
     bool MultiplySize(int multiplier);
 
+    /* Get surface of the shape. Note the return type. */
     decimal Surface { get; }
+
+    /* Get perimeter of the shape. Note the return type. */
     decimal Perimeter { get; }
 
+    /* Property if object is transparent or not.
+       By default an object is not transparent. */
     bool Transparent { get; set; }
 }
 ```
 
+S tím, že obě trídy budou implementovat konstruktory a na otestování Vám pomůže následující kód:
+
+```c#
+/* 1) testing square operations */
+var square = new Square(2, true);
+Console.WriteLine(square.Describe());
+square.Print();
+
+bool result = square.MultiplySize(0);
+Debug.Assert(!result);
+result = square.MultiplySize(2);
+Debug.Assert(result);
+Debug.Assert(square.Perimeter == 16);
+
+square.Transparent = false;
+Console.WriteLine();
+square.Print();
+Debug.Assert(square.Describe() == "Square[4x4]");
+
+Console.WriteLine();
+
+/* 2) testing circle operations */
+var circle = new Circle(5);
+circle.Print();
+result = circle.MultiplySize(-5);
+Debug.Assert(!result);
+result = circle.MultiplySize(2);
+Debug.Assert(result);
+Debug.Assert(circle.Surface > 78m && circle.Surface < 79m);
+
+Console.WriteLine();
+circle.Print();
+Console.WriteLine();
+
+/* 3) shapes in container */
+IShape[] shapes = new IShape[] { new Square(1), new Square(4), new Circle(5, false)};
+foreach(IShape shape in shapes)
+    {
+    shape.MultiplySize(2);
+    Console.WriteLine(shape.Describe());
+}
+```
