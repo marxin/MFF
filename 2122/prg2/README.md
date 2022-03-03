@@ -176,6 +176,9 @@ interface IShape
 S tím, že obě trídy budou implementovat konstruktory a na otestování Vám pomůže následující kód:
 
 ```c#
+using System;
+using System.Diagnostics;
+
 /* 1) testing square operations */
 var square = new Square(2, true);
 Console.WriteLine(square.Describe());
@@ -210,8 +213,8 @@ Console.WriteLine();
 /* 3) shapes in container */
 IShape[] shapes = new IShape[] { new Square(1), new Square(4), new Circle(5, false)};
 foreach(IShape shape in shapes)
-    {
-    shape.MultiplySize(2);
-    Console.WriteLine(shape.Describe());
+{
+  shape.MultiplySize(2);
+  Console.WriteLine(shape.Describe());
 }
 ```
