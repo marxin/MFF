@@ -218,3 +218,71 @@ foreach(IShape shape in shapes)
   Console.WriteLine(shape.Describe());
 }
 ```
+
+- Třídy a funkce implementujte postupně, `throw new NotImplementedException()` pomůže.
+- Kousky testovacího kódu si zakomentujte pro vývoj.
+
+Jako další část implementujte třídu `Number`, která je trochu divná variace na číselné operace:
+
+- `a + b` slepí čísla za sebe, tedy `12 + 34` je `1234`
+- `-a` otočí cifry v čísle, tedy -`123` je `321`
+- `a * n` kde n je typu `int` nakopíruje číslo `a` n-krát, tedy `123 * 2` je `123123`
+
+Jako kostra Vám poslouží:
+
+```c#
+class Number
+{
+    public Number(string value = "")
+    {
+    }
+
+    public Number(long value)
+    {
+    }
+
+    public override string ToString()
+    {
+        throw new NotImplementedException();
+    }
+
+    public static Number operator +(Number a, Number b)
+    {
+        throw new NotImplementedException();
+    }
+
+    public static Number operator -(Number a)
+    {
+        throw new NotImplementedException();
+    }
+
+    public static Number operator *(Number a, int times)
+    {
+        throw new NotImplementedException();
+    }
+
+    public static implicit operator long(Number v)
+    {
+        throw new NotImplementedException();
+    }
+}
+```
+
+a jako testovací kód poslouží:
+
+```c#
+/* 4) play with Number class */
+Console.WriteLine("A play with Numbers:");
+
+var number = new Number(1) + new Number(234);
+Console.WriteLine(number);
+number *= 1;
+number = number * 3;
+Console.WriteLine(number);
+number = -number;
+Console.WriteLine(number);
+
+long intNumber = number;
+Debug.Assert(intNumber == 432143214321);
+var number2 = new Number(intNumber);
+```
