@@ -116,3 +116,26 @@ Poté vypiště průnik, sjednocení a rozdíl obo množin.
   s[::-1]
   s[1::2]
   ```
+
+### 4.3.2022 (3. cvičení)
+
+#### Úlohy k procvičování
+
+Implementujte 2 třídy (`Square` a `Circle`), které budou implementovat následující `interface`:
+
+```c#
+interface IShape
+{
+    string Describe();
+
+    void Print();
+
+    bool MultiplySize(int multiplier);
+
+    decimal Surface { get; }
+    decimal Perimeter { get; }
+
+    bool Transparent { get; set; }
+}
+```
+
