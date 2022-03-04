@@ -173,6 +173,34 @@ interface IShape
 }
 ```
 
+Vygenerovaná implementace:
+
+```c#
+class MyTestShape : IShape
+{
+    public decimal Surface => throw new NotImplementedException();
+
+    public decimal Perimeter => throw new NotImplementedException();
+
+    public bool Transparent { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+    public string Describe()
+    {
+        throw new NotImplementedException();
+    }
+
+    public bool MultiplySize(int multiplier)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Print()
+    {
+        throw new NotImplementedException();
+    }
+}
+```
+
 S tím, že obě trídy budou implementovat konstruktory a na otestování Vám pomůže následující kód:
 
 ```c#
