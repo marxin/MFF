@@ -182,7 +182,7 @@ class MyTestShape : IShape
 
     public decimal Perimeter => throw new NotImplementedException();
 
-   public bool Transparent
+    public bool Transparent
     {
         get
         {
