@@ -336,69 +336,69 @@ Za domácí úkol jste řešili Recodex úlohu **Dumbo Octopus** a zkusíte si n
 udělat následující:
 
 1. Proveďte simulaci chobotnic, avšak místo původních 100 kroků simulujte do té doby, než
-  se v jednom kole rozsvítí všechny chotobnice.
+se v jednom kole rozsvítí všechny chotobnice.
 
-  Například pro vstup:
-  ```
-  10
-  5483143223
-  2745854711
-  5264556173
-  6141336146
-  6357385478
-  4167524645
-  2176841721
-  6882881134
-  4846848554
-  5283751526
-  ```
+Například pro vstup:
+```
+10
+5483143223
+2745854711
+5264556173
+6141336146
+6357385478
+4167524645
+2176841721
+6882881134
+4846848554
+5283751526
+```
 
-  Bude výstup:
-  ```
-  195
-  ```
+Bude výstup:
+```
+195
+```
 
-  Tedy v 195. kroce všechny chotobnice blikly.
+Tedy v 195. kroce všechny chotobnice blikly.
 
-1. Rozšiřte původní algoritmus na 100 kroků tak, aby při bliknutí chobotnice se zvýšila hodnota
-  chobotnicím ve vzdálenosti **2** a to i přes úhlopříčku. V původním zadání to
-  bylo ve vzdálenosti **1**.
+2. Rozšiřte původní algoritmus na 100 kroků tak, aby při bliknutí chobotnice se zvýšila hodnota
+chobotnicím ve vzdálenosti **2** a to i přes úhlopříčku. V původním zadání to
+bylo ve vzdálenosti **1**.
 
-  Například pro vstup:
-  ```
-  5483143223
-  2745854711
-  5264556173
-  6141336146
-  6357385478
-  4167524645
-  2176841721
-  6882881134
-  4846848554
-  5283751526
-  ```
+Například pro vstup:
+```
+5483143223
+2745854711
+5264556173
+6141336146
+6357385478
+4167524645
+2176841721
+6882881134
+4846848554
+5283751526
+```
 
-  Bude výstup:
-  ```
-  1000
-  ```
+Bude výstup:
+```
+1000
+```
 
-  a nebo pro:
-  ```
-  5
-  11111
-  19991
-  19191
-  19991
-  11111
-  ```
+a nebo pro:
+```
+5
+11111
+19991
+19191
+19991
+11111
+```
 
-  Bude výstup:
-  ```
-  259
-  ```
+Bude výstup:
+```
+259
+```
 
-1. Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad následujícími vlastnostmi:
+3. Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad následujícími vlastnostmi:
 
   - logické členění programu (třídy, metody/funkce, proměnné, parametry, apod.)
   - volby jmen identifikátorů
