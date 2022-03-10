@@ -335,7 +335,9 @@ var number2 = new Number(intNumber);
 Za domácí úkol jste řešili Recodex úlohu **Dumbo Octopus** a zkusíte si na cizím kódu
 udělat následující:
 
-1. Proveďte simulaci chobotnic, avšak místo původních 100 kroků simulujte do té doby, než
+##### Úkol 1:
+
+Proveďte simulaci chobotnic, avšak místo původních 100 kroků simulujte do té doby, než
 se v jednom kole rozsvítí všechny chotobnice.
 
 Například pro vstup:
@@ -360,7 +362,9 @@ Bude výstup:
 
 Tedy v 195. kroce všechny chotobnice blikly.
 
-2. Rozšiřte původní algoritmus na 100 kroků tak, aby při bliknutí chobotnice se zvýšila hodnota
+##### Úkol 2:
+
+Rozšiřte původní algoritmus na 100 kroků tak, aby při bliknutí chobotnice se zvýšila hodnota
 chobotnicím ve vzdálenosti **2** a to i přes úhlopříčku. V původním zadání to
 bylo ve vzdálenosti **1**.
 
@@ -398,7 +402,9 @@ Bude výstup:
 259
 ```
 
-3. Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad následujícími vlastnostmi:
+##### Úkol 3:
+
+Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad následujícími vlastnostmi:
 
   - logické členění programu (třídy, metody/funkce, proměnné, parametry, apod.)
   - volby jmen identifikátorů
