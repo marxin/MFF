@@ -333,7 +333,12 @@ var number2 = new Number(intNumber);
 #### Úlohy k procvičování
 
 Za domácí úkol jste řešili Recodex úlohu **Dumbo Octopus** a zkusíte si na cizím kódu
-udělat následující:
+udělat následující úkoly.
+
+Tip: Vstup na čtení si lze uložit do souboru a pak číst standartní vstup z něj:
+```
+dotnet run < input.txt
+```
 
 ##### Úkol 1:
 
