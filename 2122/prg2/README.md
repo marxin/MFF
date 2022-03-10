@@ -261,6 +261,8 @@ foreach(IShape shape in shapes)
 - Třídy a funkce implementujte postupně, `throw new NotImplementedException()` pomůže.
 - Kousky testovacího kódu si zakomentujte pro vývoj.
 
+##### Number
+
 Jako další část implementujte třídu `Number`, která je trochu divná variace na číselné operace:
 
 - `a + b` slepí čísla za sebe, tedy `12 + 34` je `1234`
@@ -325,3 +327,84 @@ long intNumber = number;
 Debug.Assert(intNumber == 432143214321);
 var number2 = new Number(intNumber);
 ```
+
+### 11.3.2022 (4. cvičení)
+
+#### Úlohy k procvičování
+
+Za domácí úkol jste řešili Recodex úlohu **Dumbo Octopus** a zkusíte si na cizím kódu
+udělat následující:
+
+1. Proveďte simulaci chobotnic, avšak místo původních 100 kroků simulujte do té doby, než
+se v jednom kole rozsvítí všechny chotobnice.
+
+Například pro vstup:
+```
+10
+5483143223
+2745854711
+5264556173
+6141336146
+6357385478
+4167524645
+2176841721
+6882881134
+4846848554
+5283751526
+```
+
+Bude výstup:
+```
+195
+```
+
+Tedy v 195. kroce všechny chotobnice blikly.
+
+1. Rozšiřte původní algoritmus na 100 kroků tak, aby při bliknutí chobotnice se zvýšila hodnota
+chobotnicím ve vzdálenosti **2** a to i přes úhlopříčku. V původním zadání to
+bylo ve vzdálenosti **1**.
+
+Například pro vstup:
+```
+5483143223
+2745854711
+5264556173
+6141336146
+6357385478
+4167524645
+2176841721
+6882881134
+4846848554
+5283751526
+```
+
+Bude výstup:
+```
+1000
+```
+
+a nebo pro:
+```
+5
+11111
+19991
+19191
+19991
+11111
+```
+
+Bude výstup:
+```
+259
+```
+
+1. Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad následujícími vlastnostmi:
+
+  - logické členění programu (třídy, metody/funkce, proměnné, parametry, apod.)
+  - volby jmen identifikátorů
+  - jak se dobře kód čte a chápe (málo nebo moc komentářů)
+  - jak se kód bude dobře rozšiřovat, udržovat, debugovat
+  - jaké jsou použity datové struktury, případně jak jsou vhodné
+  - coding style (indentace, konzistence stylu, zkrátka vizuální stránka věci)
+  - má program nějaké ladící výpisy
+  - zkuste seřadit Program1-4 podle od nejlepšího řešení, po ta horší
