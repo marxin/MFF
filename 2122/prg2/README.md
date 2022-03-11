@@ -340,6 +340,11 @@ Tip: Vstup na čtení si lze uložit do souboru a pak číst standartní vstup z
 dotnet run < input.txt
 ```
 
+a nebo případně na Windows s PowerShell:
+```
+cat input.txt | dotnet run
+```
+
 **Programy pro úkoly**:
 * [Program #1](practice4/Program1.cs)
 * [Program #2](practice4/Program2.cs)
