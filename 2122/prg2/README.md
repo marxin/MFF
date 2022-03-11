@@ -340,7 +340,7 @@ Tip: Vstup na čtení si lze uložit do souboru a pak číst standartní vstup z
 dotnet run < input.txt
 ```
 
-##### Úkol 1:
+##### Úkol #1:
 
 Proveďte simulaci chobotnic, avšak místo původních 100 kroků simulujte do té doby, než
 se v jednom kole rozsvítí všechny chotobnice.
@@ -367,7 +367,7 @@ Bude výstup:
 
 Tedy v 195. kroce všechny chotobnice blikly.
 
-##### Úkol 2:
+##### Úkol #2:
 
 Rozšiřte původní algoritmus na 100 kroků tak, aby při bliknutí chobotnice se zvýšila hodnota
 chobotnicím ve vzdálenosti **2** a to i přes úhlopříčku. V původním zadání to
@@ -407,7 +407,7 @@ Bude výstup:
 259
 ```
 
-##### Úkol 3:
+##### Úkol #3:
 
 Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad následujícími vlastnostmi:
 
