@@ -434,4 +434,4 @@ Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad nás
   - coding style (indentace, konzistence stylu, zkrátka vizuální stránka věci)
   - má program nějaké ladící výpisy, které mohou pomoct s hledáním problémů
   - jak dobře by šlo testovat jednotlivé části algoritmu
-  - zkuste seřadit Program #1-4 podle od nejlepšího řešení, po ta horší
+  - zkuste seřadit Program #1-4 od nejlepšího řešení, po ta horší
