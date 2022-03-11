@@ -423,6 +423,6 @@ Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad nás
   - jak se kód bude dobře rozšiřovat, udržovat, debugovat
   - jaké jsou použity datové struktury, případně jak jsou vhodné
   - coding style (indentace, konzistence stylu, zkrátka vizuální stránka věci)
-  - má program nějaké ladící výpisy
+  - má program nějaké ladící výpisy, které mohou pomoct s hledáním problémů
   - jak dobře by šlo testovat jednotlivé části algoritmu
-  - zkuste seřadit Program1-4 podle od nejlepšího řešení, po ta horší
+  - zkuste seřadit Program #1-4 podle od nejlepšího řešení, po ta horší
