@@ -340,6 +340,12 @@ Tip: Vstup na čtení si lze uložit do souboru a pak číst standartní vstup z
 dotnet run < input.txt
 ```
 
+**Programy pro úkoly**:
+* [Program #1](practice4/Program1.cs)
+* [Program #2](practice4/Program2.cs)
+* [Program #3](practice4/Program3.cs)
+* [Program #4](practice4/Program4.cs)
+
 ##### Úkol #1:
 
 Proveďte simulaci chobotnic, avšak místo původních 100 kroků simulujte do té doby, než
