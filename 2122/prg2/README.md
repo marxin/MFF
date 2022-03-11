@@ -345,6 +345,10 @@ a nebo případně na Windows s PowerShell:
 cat input.txt | dotnet run
 ```
 
+Pokud chcete ve VSCODE debugovat s přesměrovaným vstupem, je třeba si dát zpět:
+`"console":"internalConsole"` v `launch.json`souboru a pak postupovat dle:
+https://code.visualstudio.com/docs/editor/debugging#_redirect-inputoutput-tofrom-the-debug-target
+
 **Programy pro úkoly**:
 * [Program #1](practice4/Program1.cs)
 * [Program #2](practice4/Program2.cs)
