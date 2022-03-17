@@ -436,7 +436,7 @@ Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad nás
   - jak dobře by šlo testovat jednotlivé části algoritmu
   - zkuste seřadit Program #1-4 od nejlepšího řešení, po ta horší
 
-### 11.3.2022 (4. cvičení)
+### 18.3.2022 (5. cvičení)
 
 - Kategorie základních typů na hodnotové a referenční.
 - Diskuze ohledně parametrů a klíčových slov `ref`, `in`, `out`
