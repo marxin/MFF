@@ -435,3 +435,48 @@ Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad nás
   - má program nějaké ladící výpisy, které mohou pomoct s hledáním problémů
   - jak dobře by šlo testovat jednotlivé části algoritmu
   - zkuste seřadit Program #1-4 od nejlepšího řešení, po ta horší
+
+### 11.3.2022 (4. cvičení)
+
+- Kategorie základních typů na hodnotové a referenční.
+- Diskuze ohledně parametrů a klíčových slov `ref`, `in`, `out`
+
+#### Úlohy k procvičování
+
+- Napište funkci `Add5`, která bude mít návratovou hodnotu `void` a přičte k parametru
+  hodnotu 5. Otestujte jak se chovají `ref`, `in` a `out` modifikátory u parametru.
+- Napište obdobnou funkci pro `string`, která se bude jmenovat `AppendDot`, která ke strinu
+  přilepí tečku.
+- Otestujte si to pomocí funkce `Debug.Assert` z namespace `System.Diagnostics`.
+- Obdobně napište malé testy na 2 funkce:
+
+```c#
+    static void Update(List<int> list)
+    {
+        list = new List<int>() { 4, 5, 6 };
+    }
+
+    static void UpdateRef(ref List<int> list)
+    {
+        list = new List<int>() { 4, 5, 6 };
+    }
+```
+
+a koukněte jak se chovají.
+
+-  Vytvořte si 2 instance `int[]` (třeba `array1` a `array2`) a vyzkoušejte jak se chová funkce `array1.CopyTo(array2, 0)`,
+   jak se to chová pokud zvolíte nenulový druhý parametr?
+- Napište funkci `PrintArray(in int[] array)`, která do konzole vytiskne na jeden řádek hodnoty pole a nějak je oddělí
+- Obdobně napište funkci `PrintArrays(in int[][] arrays)`, která na jeden řádek vytiskne pole polí a navíc bude volat předchozí funkci.
+
+- Zkuste se v debugeru podívat na to, jak se bude chovat následující kód:
+
+```c#
+int[] array = new int[] { 100, 200, 300 };
+int[][] arrays1 = new int[][] { new int[] {1, 2}, array };
+int[][] arrays2 = new int[][] { array, new int[] { 3 ,4} };
+
+array[0] = -1;
+arrays2.CopyTo(arrays1, 2);
+
+```
