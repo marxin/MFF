@@ -443,6 +443,8 @@ Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad nás
 
 #### Úlohy k procvičování
 
+- Smažte si v `.csproj`: `<Nullable>enable</Nullable>`.
+
 - Napište funkci `Add5`, která bude mít návratovou hodnotu `void` a přičte k parametru
   hodnotu 5. Otestujte jak se chovají `ref`, `in` a `out` modifikátory u parametru.
 - Napište obdobnou funkci pro `string`, která se bude jmenovat `AppendDot`, která ke strinu
@@ -480,3 +482,23 @@ array[0] = -1;
 arrays2.CopyTo(arrays1, 2);
 
 ```
+
+- Implementujte jednoduchou třídu `Line`, která bude mít následující konstruktor:
+  `public Line(int width, string color)`.
+- O dvou přímkách řekneme, že jsou stejné, pokud mají stejnou `width` a `color`. Pokud jsou
+  obě nulové šířky, pak na barvě nesejde.
+- Vyzkoušejte jak se řadí objekty:
+
+```
+var a = new Line(5, "red");
+var b = new Line(1, "blue");
+object[] items = new object[] { new Line(0, "green"), a, b, a };
+Array.Sort(items);
+```
+
+- Implementujte `IComparable` interface pro třídu `Line` a jak se to chová teďka?
+- Pomocí toho nyný můžete implementovat `public static bool operator==(Line a, Line b)`, tak aby procházelo:
+`Debug.Assert(new Line(0, "red") == new Line(0, "blue"));`
+
+- Nyní naimplementujte aby šlo porovnávat dvě přímky pomocí `<`, tedy `Debug.Assert(line1 < line2)`, napište
+  si na to malý test.
