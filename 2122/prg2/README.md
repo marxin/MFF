@@ -483,6 +483,8 @@ arrays2.CopyTo(arrays1, 2);
 
 ```
 
+### 25.3.2022 (6. cvičení)
+
 - Pro následující úkoly zkuste co nejvíce použít Debugger (F5) a dívat se na **warning**y
   překladače.
 
