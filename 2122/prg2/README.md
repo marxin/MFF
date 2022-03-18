@@ -447,7 +447,7 @@ Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad nás
 
 - Napište funkci `Add5`, která bude mít návratovou hodnotu `void` a přičte k parametru
   hodnotu 5. Otestujte jak se chovají `ref`, `in` a `out` modifikátory u parametru.
-- Napište obdobnou funkci pro `string`, která se bude jmenovat `AppendDot`, která ke strinu
+- Napište obdobnou funkci pro `string`, která se bude jmenovat `AppendDot`, která ke stringu
   přilepí tečku.
 - Otestujte si to pomocí funkce `Debug.Assert` z namespace `System.Diagnostics`.
 - Obdobně napište malé testy na 2 funkce:
@@ -485,6 +485,7 @@ arrays2.CopyTo(arrays1, 2);
 
 - Pro následující úkoly zkuste co nejvíce použít Debugger (F5) a dívat se na **warning**y
   překladače.
+
 - Implementujte jednoduchou třídu `Line`, která bude mít následující konstruktor:
   `public Line(int width, string color)`.
 - O dvou přímkách řekneme, že jsou stejné, pokud mají stejnou `width` a `color`. Pokud jsou
