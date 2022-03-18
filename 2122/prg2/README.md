@@ -443,7 +443,7 @@ Zkuste si prostudovat zdrojové kódy spolužáků a zkuste se zamyslet nad nás
 
 #### Úlohy k procvičování
 
-- Smažte si v `.csproj`: `<Nullable>enable</Nullable>`.
+- **Smažte si v `.csproj`: `<Nullable>enable</Nullable>`**.
 
 - Napište funkci `Add5`, která bude mít návratovou hodnotu `void` a přičte k parametru
   hodnotu 5. Otestujte jak se chovají `ref`, `in` a `out` modifikátory u parametru.
@@ -483,6 +483,8 @@ arrays2.CopyTo(arrays1, 2);
 
 ```
 
+- Pro následující úkoly zkuste co nejvíce použít Debugger (F5) a dívat se na **warning**y
+  překladače.
 - Implementujte jednoduchou třídu `Line`, která bude mít následující konstruktor:
   `public Line(int width, string color)`.
 - O dvou přímkách řekneme, že jsou stejné, pokud mají stejnou `width` a `color`. Pokud jsou
@@ -502,3 +504,5 @@ Array.Sort(items);
 
 - Nyní naimplementujte aby šlo porovnávat dvě přímky pomocí `<`, tedy `Debug.Assert(line1 < line2)`, napište
   si na to malý test.
+
+- Porovnejte jaký je rozdíl mezi `object.ReferenceEquals` a `object.Equals` pro naši třídu `Line`.
