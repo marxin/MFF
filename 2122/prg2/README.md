@@ -485,14 +485,19 @@ arrays2.CopyTo(arrays1, 2);
 
 ### 25.3.2022 (6. cvičení)
 
+#### 1. část
+
 - Pro následující úkoly zkuste co nejvíce použít Debugger (F5) a dívat se na **warning**y
   překladače.
 
 - Implementujte jednoduchou třídu `Line`, která bude mít následující konstruktor:
   `public Line(int width, string color)`.
+- Implementujte `ToString`, aby šla používat pro ladící výpisy.
 - O dvou přímkách řekneme, že jsou stejné, pokud mají stejnou `width` a `color`. Pokud jsou
-  obě nulové šířky, pak na barvě nesejde.
-- Vyzkoušejte jak se řadí objekty:
+  obě nulové šířky, pak na barvě nesejde. Pokud chceme porovnat dvě přímky, tak nejprve řadíme
+  podle `width` a případně pak podle `color`.
+
+- Vyzkoušejte, jak se řadí objekty:
 
 ```
 var a = new Line(5, "red");
@@ -509,3 +514,15 @@ Array.Sort(items);
   si na to malý test.
 
 - Porovnejte jaký je rozdíl mezi `object.ReferenceEquals` a `object.Equals` pro naši třídu `Line`.
+
+#### 2. část
+
+Vytvořte novou solution, kde vytvoříte knihovnu (ta bude obsahovat třídu `Line`) a jako druhý projekt si vytvořte
+`nUnit` testovací projekt.
+
+Návody pro [Visual Studio naleznete zde](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions?view=vs-2022)
+a pro [VS Code zde](https://docs.microsoft.com/en-us/dotnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0).
+Dále pro VS Code budete potřebovat `.NET Core Test Extension`, které pak umí testy spouštět.
+
+- Vyzkoušejte si základní `[Test]` a `[TestCase]` atributy pro testovací funkce a také si vyzkoušejte co nabízí za nové funkce
+  [třída `Assert`](https://docs.microsoft.com/en-us/dotnet/api/nunit.framework.assert).
