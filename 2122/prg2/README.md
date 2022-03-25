@@ -526,3 +526,5 @@ Array.Sort(items);
 
 - Vyzkoušejte si základní `[Test]` a `[TestCase]` atributy pro testovací funkce a také si vyzkoušejte co nabízí za nové funkce
  [třída `Assert`](https://docs.microsoft.com/en-us/dotnet/api/nunit.framework.assert).
+
+- Testy lze pak pustit ve VSCode pomocí `dotnet test` a nebo pomocí Testing v VSCode, kde lze testy procházet a pouštět.
