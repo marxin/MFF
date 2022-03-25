@@ -517,12 +517,12 @@ Array.Sort(items);
 
 #### 2. část
 
-Vytvořte novou solution, kde vytvoříte knihovnu (ta bude obsahovat třídu `Line`) a jako druhý projekt si vytvořte
-`nUnit` testovací projekt.
+- Vytvořte novou solution, kde vytvoříte knihovnu (ta bude obsahovat třídu `Line`) a jako druhý projekt si vytvořte
+  `nUnit` testovací projekt.
 
-Návody pro [Visual Studio naleznete zde](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions?view=vs-2022)
-a pro [VS Code zde](https://docs.microsoft.com/en-us/dotnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0).
-Dále pro VS Code budete potřebovat `.NET Core Test Extension`, které pak umí testy spouštět.
+- Návody pro [Visual Studio naleznete zde](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions?view=vs-2022)
+  a pro [VS Code zde](https://docs.microsoft.com/en-us/dotnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0).
+  Dále pro VS Code budete potřebovat `.NET Core Test Extension`, které pak umí testy spouštět.
 
 - Vyzkoušejte si základní `[Test]` a `[TestCase]` atributy pro testovací funkce a také si vyzkoušejte co nabízí za nové funkce
-  [třída `Assert`](https://docs.microsoft.com/en-us/dotnet/api/nunit.framework.assert).
+ [třída `Assert`](https://docs.microsoft.com/en-us/dotnet/api/nunit.framework.assert).
