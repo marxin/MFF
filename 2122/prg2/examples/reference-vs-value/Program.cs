@@ -55,30 +55,6 @@ Helper.PrintArray(arrays1);
 arrays2.CopyTo(arrays1, 0);
 Helper.PrintArray(arrays1);
 
-var a = new Line(5, "red");
-Debug.Assert(a < null == true);
-var b = new Line(1, "blue");
-Debug.Assert(a != b);
-
-object[] items = new object[] { new Line(0, "green"), a, b, a, a, a, a };
-Array.Sort(items);
-
-items.ToList().Contains(a);
-
-Debug.Assert(new Line(0, "red") == new Line(0, "blue"));
-
-Debug.Assert(b < a);
-
-Console.Write("dist: ");
-Console.WriteLine(items.Distinct().ToList().Count);
-
-Debug.Assert(!a.Equals(b));
-//Debug.Assert(a == b);
-Array.Sort(items);
-Console.WriteLine(items[0]);
-Console.WriteLine(items[1]);
-Console.WriteLine(items[items.Length - 1]);
-
 // var foos = new object[] { new Foo(), new Foo() };
 // Array.Sort(foos);
 
