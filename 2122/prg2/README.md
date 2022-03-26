@@ -328,6 +328,8 @@ Debug.Assert(intNumber == 432143214321);
 var number2 = new Number(intNumber);
 ```
 
+**Ukázku řešení naleznete [zde](examples/practice3)**.
+
 ### 11.3.2022 (4. cvičení)
 
 #### Úlohy k procvičování
