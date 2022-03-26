@@ -1,0 +1,16 @@
+Square[2x2]
+..
+..
+
+####
+####
+####
+####
+
+ooooo
+
+oooooooooo
+
+Square[2x2]
+Square[8x8]
+Circle[10]
