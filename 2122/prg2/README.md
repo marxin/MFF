@@ -482,8 +482,9 @@ int[][] arrays2 = new int[][] { array, new int[] { 3 ,4} };
 
 array[0] = -1;
 arrays2.CopyTo(arrays1, 2);
-
 ```
+
+**Ukázku řešení naleznete [zde](examples/reference-vs-value)**.
 
 ### 25.3.2022 (6. cvičení)
 
@@ -530,3 +531,5 @@ Array.Sort(items);
  [třída `Assert`](https://docs.microsoft.com/en-us/dotnet/api/nunit.framework.assert).
 
 - Testy lze pak pustit ve VSCode pomocí `dotnet test` a nebo pomocí Testing v VSCode, kde lze testy procházet a pouštět.
+
+**Ukázku řešení naleznete [zde](examples/solution-with-tests)**.
