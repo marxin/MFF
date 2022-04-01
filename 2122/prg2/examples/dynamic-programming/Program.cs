@@ -56,6 +56,22 @@ bool CanSum(int sum, in int[] values)
     return false;
 }
 
+bool CanSumTabular(int sum, in int[] values)
+{
+    bool[] possible = new bool[sum + 1];
+    possible[0] = true;
+
+    for (int i = 0; i < sum; i++)
+    {
+        if (possible[i])
+            foreach(int value in values)
+                if (i + value <= sum)
+                    possible[i + value] = true;
+    }
+
+    return possible[sum];
+}
+
 int n = 50;
 long fib = FibMemorize(50, new Dictionary<long, long>());
 Console.WriteLine($"fib({n})={fib}");
@@ -78,3 +94,9 @@ var values2 = values.Append(555).ToArray();
 /* Easy way of printing the values. */
 Console.WriteLine(string.Join(' ',values.Select(x => x.ToString())));
 Console.WriteLine(string.Join(' ',values2.Select(x => x.ToString())));
+
+Console.WriteLine();
+Console.WriteLine(CanSumTabular(2, new int[] { 3, 5 }));
+Console.WriteLine(CanSumTabular(10, new int[] { 7, 4 }));
+Console.WriteLine(CanSumTabular(100, new int[] { 7, 4 }));
+Console.WriteLine(CanSumTabular(300, new int[] { 7, 14 }));
