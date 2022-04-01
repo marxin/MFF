@@ -540,7 +540,7 @@ Array.Sort(items);
 
 Budeme řešit následující problémy:
 
-- **Fibonacciho posloupnout** - fib(1) = 1, fib(1) = 2 a každé další číslo je součtem dvou předchozích
+- **Fibonacciho posloupnout** - fib(1) = 1, fib(2) = 1 a každé další číslo je součtem dvou předchozích
 - **GridTraveler** - máme tabulku velikosti `m x n` a ptáme se kolika způsoby lze projít z levého
   horního rohu do pravého dolního tak, že se smíme pohybovat pouze dolů a doprava.
   Funkce `int GridTraveler(int m, int n)` vrátí počet takových cest.
