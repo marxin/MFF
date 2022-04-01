@@ -533,3 +533,19 @@ Array.Sort(items);
 - Testy lze pak pustit ve VSCode pomocí `dotnet test` a nebo pomocí Testing v VSCode, kde lze testy procházet a pouštět.
 
 **Ukázku řešení naleznete [zde](examples/solution-with-tests)**.
+
+### 1.4.2022 (7. cvičení)
+
+#### Dynamické programování
+
+Budeme řešit následující problémy:
+
+- **Fibonacciho posloupnout** - fib(1) = 1, fib(1) = 2 a každé další číslo je součtem dvou předchozích
+- **GridTraveler** - máme tabulku velikosti `m x n` a ptáme se kolika způsoby lze projít z levého
+  horního rohu do pravého dolního tak, že se smíme pohybovat pouze dolů a doprava.
+  Funkce `int GridTraveler(int m, int n)` vrátí počet takových cest.
+- **CanSum** (možný součet) - napište funkci `bool CanSum(int sum, int[] values)`, která vrátí true
+  právě když lze z nezáporých čísel (`values`) udělat soušet `sum`. Každé číslo lze použít **opakovaně**.
+- **HowSum** (jak sečít) - obdobně jako minulý bod, akorát nás zajímá jak vypadají ty jednotlivé sčítance.
+  `int[] HowSum(int sum, int[] values)`.
+- **BestSum** (nejkratší součet) - obdobně jako v minulém bodě, ale je nám vráceno nejkratší možné pole.
