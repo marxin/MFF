@@ -549,3 +549,9 @@ Budeme řešit následující problémy:
 - **HowSum** (jak sečít) - obdobně jako minulý bod, akorát nás zajímá jak vypadají ty jednotlivé sčítance.
   `int[] HowSum(int sum, int[] values)`.
 - **BestSum** (nejkratší součet) - obdobně jako v minulém bodě, ale je nám vráceno nejkratší možné pole.
+
+
+**Ukázku řešení naleznete [zde](examples/dynamic-programming)**.
+
+Dále se můžete podívat na [skvělé video](https://www.youtube.com/watch?v=oBt53YbR9Kk),
+které se věnuje dymickému programování a zde kterého jsme dnes řešili úlohy.
