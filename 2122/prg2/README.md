@@ -118,6 +118,9 @@ Poté vypiště průnik, sjednocení a rozdíl obo množin.
   s[1::2]
   ```
 
+Mimochodem, C# nově také umí něco podobného jako Python, v C#
+[ranges](https://docs.microsoft.com/cs-cz/dotnet/csharp/language-reference/proposals/csharp-8.0/ranges).
+
 ### 4.3.2022 (3. cvičení)
 
 #### Úlohy k procvičování
