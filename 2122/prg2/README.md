@@ -555,3 +555,31 @@ Budeme řešit následující problémy:
 
 Dále se můžete podívat na [skvělé video](https://www.youtube.com/watch?v=oBt53YbR9Kk),
 které se věnuje dymickému programování a zde kterého jsme dnes řešili úlohy.
+
+### 8.4.2022 (8. cvičení)
+
+##### Diskrétní simulace Pošty
+
+Úkolem je napsat simulaci pošty, která bude **řízená událostmi** a jejich zpracováním.
+Pošta je pro jednoduchost otevřená a nastanou 3 základní události:
+- každých **5 jednotek času** (nemusíme si lámat hlavu s hodinami, minutami, apod.) přijde
+  nový zákazník
+- obsloužení zákazníka bude trvat **6 jednotek času**
+- pošta je na vesnici a proto má právě **jednu přepážku**
+- pošta zavře po **100 jednotkách** času a poté už neotevře, simulace tím skončí
+- poslední zákazník, jehož obsluha začne do zavírací doby se stihne obsloužit
+
+**Úkoly**:
+
+1. Navrhněte základní třídy a objekty, které budeme pro simulaci potřebovat a načrtněte vztahy mezi nima.
+2. Navrhněte jaké budeme potřebovat události a co tak asi bude dělat a volat obsluha každé z nich.
+3. Jak se vypořádáme s tím, že nastanou 2 a více událostí ve stejný čas?
+4. Jaké věci se nám budou hodit pro ladění a testování, zda simulace funguje?
+5. Implementujte základní verzi simulace.
+
+**Pokročilé úkoly**:
+
+1. Vyzkoušejte jak odlišit výpisy do konzole dle barvy (např. `Console.ForegroundColor = ConsoleColor.Cyan`)
+2. Zkuste, aby se zákazníci objevovali trochu náhodně (1-5 minut) a jejich obsluha byla také variabilní (2-6 minut),
+   použijte `Random`.
+3. Implementujte další událost (**otevření pošty**), která nastane po **200 jednotkách** času od zavření.
