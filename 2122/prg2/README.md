@@ -29,7 +29,8 @@ Cvičení navazuje na Programování 1 z minulého semestru.
   Rudolf Kryl má na webu [návod na psaní dokumentace k zápočťáku](https://ksvi.mff.cuni.cz/~kryl/dokumentace.htm),
   také doporučuji přečíst.
 
-  Byl bych rád, kdybyste program vyvíjeli v repozitáři na GitHubu nebo GitLabu, případně podobné službě.
+  Byl bych rád, kdybyste program vyvíjeli v repozitáři ~~na GitHubu~~ nebo GitLabu
+  (preferovaný je [školní instance](gitlab.mff.cuni.cz)), případně podobné službě.
   Ušetří to práci oběma stranám. Pokud s gitem neumíte, pak máte ideální příležitost se ho naučit, budete ho beztak jednou potřebovat ([Git ve 100 sekundách](https://www.youtube.com/watch?v=hwP7WQkmECE&ab_channel=Fireship),
   ale nám stačí prvních 60 a potom to samé, [ale detailněji](https://www.youtube.com/watch?v=HkdAHXoRtos&ab_channel=Fireship)).
 
@@ -575,7 +576,8 @@ Pošta je pro jednoduchost otevřená a nastanou 3 základní události:
 2. Navrhněte jaké budeme potřebovat události a co tak asi bude dělat a volat obsluha každé z nich.
 3. Jak se vypořádáme s tím, že nastanou 2 a více událostí ve stejný čas?
 4. Jaké věci se nám budou hodit pro ladění a testování, zda simulace funguje?
-5. Implementujte základní verzi simulace.
+5. Zkuste udělat co nejlepší zapouzdření dat.
+6. Implementujte základní verzi simulace.
 
 **Pokročilé úkoly**:
 
