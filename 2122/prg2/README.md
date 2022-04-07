@@ -30,7 +30,7 @@ Cvičení navazuje na Programování 1 z minulého semestru.
   také doporučuji přečíst.
 
   Byl bych rád, kdybyste program vyvíjeli v repozitáři ~~na GitHubu~~ nebo GitLabu
-  (preferovaný je [školní instance](https://gitlab.mff.cuni.cz)), případně podobné službě.
+  (preferovaná je [školní instance](https://gitlab.mff.cuni.cz)), případně podobné službě.
   Ušetří to práci oběma stranám. Pokud s gitem neumíte, pak máte ideální příležitost se ho naučit, budete ho beztak jednou potřebovat ([Git ve 100 sekundách](https://www.youtube.com/watch?v=hwP7WQkmECE&ab_channel=Fireship),
   ale nám stačí prvních 60 a potom to samé, [ale detailněji](https://www.youtube.com/watch?v=HkdAHXoRtos&ab_channel=Fireship)).
 
