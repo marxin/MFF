@@ -582,6 +582,8 @@ Pošta je pro jednoduchost otevřená a nastanou 3 základní události:
 5. Zkuste udělat co nejlepší zapouzdření dat.
 6. Implementujte základní verzi simulace.
 
+**Ukázku základu simulace naleznete [zde](examples/post-office)**.
+
 **Pokročilé úkoly**:
 
 1. Vyzkoušejte jak odlišit výpisy do konzole dle barvy (např. `Console.ForegroundColor = ConsoleColor.Cyan`)
