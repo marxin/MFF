@@ -588,3 +588,4 @@ Pošta je pro jednoduchost otevřená a nastanou 3 základní události:
 2. Zkuste, aby se zákazníci objevovali trochu náhodně (1-5 minut) a jejich obsluha byla také variabilní (2-6 minut),
    použijte `Random`.
 3. Implementujte další událost (**otevření pošty**), která nastane po **200 jednotkách** času od zavření.
+4. Rozšiřte zadání tak, aby bylo možné simulovat `N` přepážek, které budou obsluhovat najednout.
