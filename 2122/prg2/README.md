@@ -605,7 +605,6 @@ a jednotlivou funkcionalitu si otestujte pomocí vlastních testů a výstupu do
 1. Napište funkci `Count`, která vrátí počet prvků v sekvenci, které splňují daný predikát.
    Tedy signatura funkce bude `public static int Count<T>(IEnumerable<T> sequence, Predicate<T> predicate)`.
 2. Napište funkci `Any`, která vrací `true` pokud nějaký prvek sekvence splňuje daný predikát.
-3. Napište funkci `All`, která vrací `true` pokud všechny prvky sekvence splňuje daný predikát.
 4. Napište funkci `FirstOrDefault`, která vrací první prvek sekvence pokud je neprázdná. V opačném případě
    vrací `null`.
 5. Napiště funkci `Take`, která pro danou sekvenci a přirozené číslo `N` vrací prvních `N` prvků sekvence,
@@ -627,3 +626,6 @@ a jednotlivou funkcionalitu si otestujte pomocí vlastních testů a výstupu do
    foreach(var item in Zip(numbers, strings))
        Console.WriteLine($"{item.Item1}: {item.Item2}");
    ```
+
+2. Napište funkci `All`, která vrací `true` pokud všechny prvky sekvence splňuje daný predikát.
+3. Napište funkci `Skip`, která přeskočí ze sekvence `N` položek.
