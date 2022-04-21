@@ -592,6 +592,52 @@ Pošta je pro jednoduchost otevřená a nastanou 3 základní události:
 3. Implementujte další událost (**otevření pošty**), která nastane po **200 jednotkách** času od zavření.
 4. Rozšiřte zadání tak, aby bylo možné simulovat `N` přepážek, které budou obsluhovat najednout.
 
+### Poznámky z domácího úkolu Dirac Dice
+
+```c#
+
+public const ushort Fields = 10;
+public const uint scoreCap = 21;
+
+...
+
+(ushort DiceValue, ushort WorldWeight)[] Options = { (3, 1), (4, 3), (5, 6), (6, 7), (7, 6), (8, 3), (9, 1) };
+
+...
+
+for (int i = 1; i < 4; i++)
+{
+    for (int j = 1; j < 4; j++)
+    {
+        for (int k = 1; k < 4; k++)
+        {
+            int new_player1_pos = move_player(player1_pos + i + j + k);
+...
+
+public static Dictionary<Tuple<int, int, int, int>,Tuple<long, long>> universes_mem_dict = new Dictionary<Tuple<int,int,int,int>, Tuple<long, long>>();
+
+...
+
+
+int next_player = who_roll % 2 + 1;
+string key = $"{new_positions[0]}-{new_positions[1]}-{new_points[0]}-{new_points[1]}-{next_player}";
+if (memoization_dict.ContainsKey(key))
+
+...
+
+if (int.TryParse(aa[1],out int aaa) & aaa>=0 & aaa<11){
+
+...
+
+(long, long) CalculateWins(int currentPlayerPosition, int currentPlayerScore, int otherPlayerPosition, int otherPlayerScore)
+{
+    if (wins.ContainsKey((currentPlayerPosition, currentPlayerScore, otherPlayerPosition, otherPlayerScore)))
+    {
+        return wins[(currentPlayerPosition, currentPlayerScore, otherPlayerPosition, otherPlayerScore)];
+
+
+```
+
 ### 22.4.2022 (9. cvičení)
 
 Úkolem bude se seznámit s **delegáty** (`delegate`, `Func<...>`, `Action<...>`, `Predicate<...>`) a jejich použitím
