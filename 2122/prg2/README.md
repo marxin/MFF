@@ -597,4 +597,33 @@ Pošta je pro jednoduchost otevřená a nastanou 3 základní události:
 Úkolem bude se seznámit s **delegáty** (`delegate`, `Func<...>`, `Action<...>`, `Predicate<...>`) a jejich použitím
 v souvislosti s `IEnumerable<T>`. Budete také používat klíčová slova `yield return` a `foreach` cyklus.
 
-Pro začátek se podívejte na [malou ukázku zde](examples/Snippets.cs).
+Pro začátek se podívejte na [malou ukázku zde](examples/Snippets.cs). Kde to jde, zkuste používat lambda funkce
+a jednotlivou funkcionalitu si otestujte pomocí vlastních testů a výstupu do konzole.
+
+**Úkoly na implementaci**:
+
+1. Napište funkci `Count`, která vrátí počet prvků v sekvenci, které splňují daný predikát.
+   Tedy signatura funkce bude `public static int Count<T>(IEnumerable<T> sequence, Predicate<T> predicate)`.
+2. Napište funkci `Any`, která vrací `true` pokud nějaký prvek sekvence splňuje daný predikát.
+3. Napište funkci `All`, která vrací `true` pokud všechny prvky sekvence splňuje daný predikát.
+4. Napište funkci `FirstOrDefault`, která vrací první prvek sekvence pokud je neprázdná. V opačném případě
+   vrací `null`.
+5. Napiště funkci `Take`, která pro danou sekvenci a přirozené číslo `N` vrací prvních `N` prvků sekvence,
+   připadně méně, pokud jich tolik v sekvenci není.
+6. Napište funkci `IEnumerable<int> UpToN(int n)`, která vrátí všechna kladná přirozená čísla do `n` (včetně).
+7. Napiště funkci `ForEach`, která zavolá na každý prvek sekvence nějakou `Action<T>`. Zkuste zavolat
+   s `Console.WriteLine` jako právě tou akcí.
+8. Napište pomocí výše zmíněného sekvenci volání, které vezme prvních 10 přirozených kladných čísel dělitelných
+   *7* a zjistí, zda je z nich některé alespoň dvouciferné.
+
+**Další úkoly**:
+
+1. Napište funkci `Zip`, která jako parametr dostane dvě sekvence a vrací sekvenci dvojic a to ve formě
+   `named tuples`. Tedy např.
+
+   ```c#
+   var numbers = new int[] {1, 5};
+   var strings = new strings[] {"one", "five"};
+   foreach(var item in Zip(numbers, strings))
+       Console.WriteLine($"{item.Item1}: {item.Item2}");
+   ```
