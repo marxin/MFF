@@ -591,3 +591,10 @@ Pošta je pro jednoduchost otevřená a nastanou 3 základní události:
    použijte `Random`.
 3. Implementujte další událost (**otevření pošty**), která nastane po **200 jednotkách** času od zavření.
 4. Rozšiřte zadání tak, aby bylo možné simulovat `N` přepážek, které budou obsluhovat najednout.
+
+### 22.4.2022 (9. cvičení)
+
+Úkolem bude se seznámit s **delegáty** (`delegate`, `Func<...>`, `Action<...>`, `Predicate<...>`) a jejich použitím
+v souvislosti s `IEnumerable<T>`. Budete také používat klíčová slova `yield return` a `foreach` cyklus.
+
+Pro začátek se podívejte na [malou ukázku zde](examples/Snippets.cs).
