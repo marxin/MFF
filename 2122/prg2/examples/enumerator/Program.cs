@@ -144,26 +144,27 @@ static class Program
 
         /* Example that uses so called Extension Methods from IEnumerable<T> interface: */
 
-        var exampleConfigFile = @"""
-        ; this is sample config file that
-        ; author: XYZ
-        ; address = IP address
+        var exampleConfigFile = @"
+; this is sample config file that
+; author: XYZ
+; address = IP address
 
-        name = My server
-        address = 192.168.5.4
-        key = asdflkasdkasjdlfka
+name=My server
+address=192.168.5.4
+key=asdflkasdkasjdlfka
 
 
-        """;
+";
 
         var parsedAddress = (exampleConfigFile
-            .Split()
+            .Split(new string[]{"\r\n"}, StringSplitOptions.None)
             .Where(line => !line.StartsWith(";"))
             .Where(line => !string.IsNullOrWhiteSpace(line))
             .Select(line => line.Split('='))
-            .First(line => line[0] == "address")).Last();
+            .First(line => line[0] == "address"))
+                .Last();
 
-        Console.WriteLine(parsedAddress);
+        Console.WriteLine($"Parsed addr: {parsedAddress}");
 
         return 0;
     }
