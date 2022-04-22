@@ -675,3 +675,8 @@ a jednotlivou funkcionalitu si otestujte pomocí vlastních testů a výstupu do
 
 2. Napište funkci `All`, která vrací `true` pokud všechny prvky sekvence splňuje daný predikát.
 3. Napište funkci `Skip`, která přeskočí ze sekvence `N` položek.
+
+**Poznámky**
+
+1. Právě jste naimplementovali část metod, které třída `IEnumerable` nabízí. Seznam
+funkcí [neleznete zde](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-6.0#extension-methods).
