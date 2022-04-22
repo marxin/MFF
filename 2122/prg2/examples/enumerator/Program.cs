@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 using System.Diagnostics;
 using System.Collections.Generic;
@@ -140,6 +141,29 @@ static class Program
 
         Console.WriteLine("Complex expression:");
         Console.WriteLine(Count(Take(Filter(Filter(UpToN(1000000), (x) => x > 1000), (x) => x % 13 == 0), 10), IsOdd));
+
+        /* Example that uses so called Extension Methods from IEnumerable<T> interface: */
+
+        var exampleConfigFile = @"""
+        ; this is sample config file that
+        ; author: XYZ
+        ; address = IP address
+
+        name = My server
+        address = 192.168.5.4
+        key = asdflkasdkasjdlfka
+
+
+        """;
+
+        var parsedAddress = (exampleConfigFile
+            .Split()
+            .Where(line => !line.StartsWith(";"))
+            .Where(line => !string.IsNullOrWhiteSpace(line))
+            .Select(line => line.Split('='))
+            .First(line => line[0] == "address")).Last();
+
+        Console.WriteLine(parsedAddress);
 
         return 0;
     }

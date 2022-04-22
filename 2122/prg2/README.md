@@ -652,7 +652,7 @@ a jednotlivou funkcionalitu si otestujte pomocí vlastních testů a výstupu do
    Tedy signatura funkce bude `public static int Count<T>(IEnumerable<T> sequence, Predicate<T> predicate)`.
 2. Napište funkci `Any`, která vrací `true` pokud nějaký prvek sekvence splňuje daný predikát.
 4. Napište funkci `FirstOrDefault`, která vrací první prvek sekvence pokud je neprázdná. V opačném případě
-   vrací `null`.
+   vrací ~~`null`~~ (`default(T)`).
 5. Napiště funkci `Take`, která pro danou sekvenci a přirozené číslo `N` vrací prvních `N` prvků sekvence,
    připadně méně, pokud jich tolik v sekvenci není.
 6. Napište funkci `IEnumerable<int> UpToN(int n)`, která vrátí všechna kladná přirozená čísla do `n` (včetně).
