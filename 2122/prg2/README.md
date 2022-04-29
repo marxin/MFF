@@ -683,3 +683,49 @@ a jednotlivou funkcionalitu si otestujte pomocí vlastních testů a výstupu do
 funkcí [neleznete zde](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-6.0#extension-methods).
 
 2. **Ukázku řešení naleznete [zde](examples/enumerator)**.
+
+### Poznámky z domácího úkolu Abeceda
+
+```c#
+public static int[] SearchMinNumOfSteps(char[,] field, int rows, int columns, string text, \
+  string alphabet, (char Name, int X, int Y)[] coords, (char Letter, int CountOfRepeats)[] repeats, \
+  (char Letter, (int X, int Y)[] Coords)[] convertData, string[] combinations)
+...
+uint GetDistance((uint x, uint y) fcoord, (uint x, uint y) scoord)
+{
+    uint x_diff = Math.Max(fcoord.x, scoord.x) - Math.Min(fcoord.x, scoord.x);
+    uint y_diff = Math.Max(fcoord.y, scoord.y) - Math.Min(fcoord.y, scoord.y);
+    return (x_diff + y_diff);
+}
+...
+while (!(abeceda.ContainsKey(letter)))
+{
+    text = text[1..];
+    letter = text[0];
+}
+...
+Dictionary<char, LinkedList<(int, int, int)>> table;
+...
+            for (short j=0;j<offset-1;j++){
+                for (short i = 0; i < offset2; i++){
+                    if (content[i].tile == TIW[j]){
+                        content[i].modified=false;
+                        for (short k = 0; k < offset2; k++){
+                            if (content[k].tile == TIW[j+1]){
+                                if (!content[k].modified){
+                                    content[k].modified=true;
+...
+if (dist < minDist)
+{
+    minDist = dist;
+}
+...
+static List<((int, int), int)> find_all_positions_and_distances(List<((int, int), int)> current_positions, char a)
+...
+for (int y = 0 ; y < height ; ++y)
+    for (int x = 0 ; x < width ; ++x)
+      grid[x, y] = (char) Read();
+  ReadLine();
+...
+int dist = states.Select(s => Abs(s.x - x) + Abs(s.y - y) + s.dist).Min();
+```
