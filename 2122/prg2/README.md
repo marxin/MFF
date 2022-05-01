@@ -739,5 +739,6 @@ Prošli jsme následující kapitovy:
 a [Sphinx](https://www.sphinx-doc.org/)
 2. verzování pomocí [git](https://git-scm.com/)
 3. testování - unit testy, NUnit, pytest
-4. sktrukturování kódu - coding style, lintery
+4. sktrukturování kódu - coding style, lintery (flake8 pro Python)
 5. závislosti na externích knihovnách - Nuget
+6. práce na Githubu - issues, pull requests, Actions (testy) a procházení historie a diskuze o změnách
