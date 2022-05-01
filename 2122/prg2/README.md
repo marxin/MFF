@@ -729,3 +729,15 @@ for (int y = 0 ; y < height ; ++y)
 ...
 int dist = states.Select(s => Abs(s.x - x) + Abs(s.y - y) + s.dist).Min();
 ```
+
+### 29.4.2022 (10. cvičení)
+
+Probrali jsme věci týkající se tvorby **zápočtového programu** a obecně (nejenom open-source) projektů.
+Prošli jsme následující kapitovy:
+
+1. dokumentace - plain text, [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+a [Sphinx](https://www.sphinx-doc.org/)
+2. verzování pomocí [git](https://git-scm.com/)
+3. testování - unit testy, NUnit, pytest
+4. sktrukturování kódu - coding style, lintery
+5. závislosti na externích knihovnách - Nuget
