@@ -53,7 +53,7 @@ Doporučuju si otevřít [první přednášku](https://ksvi.mff.cuni.cz/~holan/P
 ##### Vstup a Výstup
 
 1. Napiště program, který se optá na jméno a pak ho osloví: např. `Hello Martin`.
-   Zkuste pro výstup použít [$-notaci](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated). 
+   Zkuste pro výstup použít [$-notaci](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated).
 
 ##### Cykly
 
@@ -742,3 +742,16 @@ a [Sphinx](https://www.sphinx-doc.org/)
 4. sktrukturování kódu - coding style, lintery (flake8 pro Python)
 5. závislosti na externích knihovnách - Nuget
 6. práce na Githubu - issues, pull requests, Actions (testy) a procházení historie a diskuze o změnách
+
+### 6.5.2022 (11. cvičení)
+
+Implementujte třídu pro parsování a vyhodnocování binárních výrazů:
+
+1. Pro `int` typ následující operace: `+`, `-`, `/`, `*`.
+2. Implementujte parsování z **postfixu** (`ParseFromPostfix("5 6 7 + 4 * +")`)
+3. Implementujte vyhodnocení výrazů
+4. Implementujte vytištění výrazu v **infixu** (např. `(1 + (3 * 4))`).
+5. Zkuste udělat co nejhezší hierarchi tříd
+6. Podporujte vytvoření výrazu z kódu pomocí konstuktorů a zkuste
+   si nějaký vytvořit
+7. Použijte (**switch expression**)[https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression]
