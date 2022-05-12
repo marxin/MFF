@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 struct Point
 {
@@ -26,6 +27,15 @@ class TetrisShape
         Color = color;
     }
 
+    public int Width
+    {
+        get
+        {
+            var yValues = Points.Select(p => p.Y).OrderBy(p => p).ToList();
+            return yValues.Max() - yValues.Min() + 1;
+        }
+    }
+
     public HashSet<Point> Points;
     public ConsoleColor Color;
 }
@@ -42,7 +52,9 @@ class Tetris
     public readonly TetrisShape[] Shapes = {
         new TetrisShape(new Point[] { new(0, 0) }, ConsoleColor.DarkMagenta),
         new TetrisShape(new Point[] { new(0, 0), new(0, 1), new(1, 0), new(1, 1) }, ConsoleColor.DarkCyan),
-        new TetrisShape(new Point[] { new(0, 0) }, ConsoleColor.DarkGreen),
+        new TetrisShape(new Point[] { new(0, 0), new(0, 1), new (0, 2),
+                                      new (1, 0), new(1, 1), new (1, 2),
+                                      new (2, 0), new (2, 1), new (2, 2)}, ConsoleColor.DarkGreen),
     };
 
     public int Steps = 0;
@@ -105,13 +117,11 @@ class Tetris
                     Points.Remove(point);
 
                 // move all points down by one
-                /*
                 var newPoints = new Dictionary<Point, ConsoleColor>();
                 foreach(var point in Points.Keys)
                     newPoints[new Point(point.X, point.Y + 1)] = Points[point];
 
                 Points = newPoints;
-                */
 
                 // update score
                 Score += WIDTH;
@@ -126,7 +136,7 @@ class Tetris
         List<Point> points = shape.Points.Select(p => new Point(p.X + x, p.Y)).ToList();
         foreach(var point in points)
         {
-            if (point.X >= WIDTH || point.X < 0)
+            if (point.X > WIDTH || point.X < 0)
                 throw new InvalidOperationException($"Shape X coordinate ({point.X}) out of range");
         };
 
@@ -153,6 +163,7 @@ class Tetris
 
     public void AddShapeWithInteraction(TetrisShape shape, int x)
     {
+        /*
         if (Steps != 0)
         {
             Console.WriteLine("Confirm by pressing a key (q for quit)...");
@@ -160,6 +171,8 @@ class Tetris
             if (key.KeyChar == 'q')
                 Environment.Exit(1);
         }
+        */
+        Thread.Sleep(500);
 
         if (!AddShape(shape, x))
         {
