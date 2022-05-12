@@ -771,4 +771,5 @@ Rozšiřte [**Tetris**](https://github.com/marxin/MFF/tree/main/2122/prg2/exampl
    čtverce 1x1, 2x2 a 3x3 a pak pro klasické [tetris tvary](https://en.wikipedia.org/wiki/Tetris#Game_pieces))
    (**1 bod**)
 3. Implementujte rotace kostek s tím, že každou náhodně otočte (**1 bod**).
-4. Have fun!
+4. Implementujte animaci pro padající kostičku.
+5. Have fun!
