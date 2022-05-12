@@ -172,6 +172,8 @@ class Tetris
                 Environment.Exit(1);
         }
         */
+
+        // make some animation
         Thread.Sleep(500);
 
         if (!AddShape(shape, x))
