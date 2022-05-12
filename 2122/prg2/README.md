@@ -759,3 +759,16 @@ Implementujte třídu pro parsování a vyhodnocování binárních výrazů:
 9. Vytvořte nevalidní vstup a zkuste ho ošetřit pomocí výjimek
 
 **Ukázku řešení naleznete [zde](http://www.ms.mff.cuni.cz/~topfermi/vyuka/2122/NPRG031/05/expressions/Program.cs)**.
+
+### 13.5.2022 (12. cvičení)
+
+Rozšiřte [**Tetris**](https://github.com/marxin/MFF/tree/main/2122/prg2/examples/tetris)
+
+Úkoly:
+
+1. Opravte hru, aby fungovala jak má a korektně skončila (**1 bod**).
+2. Napište umělou inteligenci, která bude solidně hrát (nejprve
+   čtverce 1x1, 2x2 a 3x3 a pak pro klasické [tetris tvary](https://en.wikipedia.org/wiki/Tetris#Game_pieces))
+   (**1 bod**)
+3. Implementujte rotace kostek s tím, že každou náhodně otočte (**1 bod**).
+4. Have fun!
