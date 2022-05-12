@@ -4,8 +4,8 @@ Tetris game = new();
 
 // add some shapes
 game.AddShapeWithInteraction(game.Shapes[2], 7);
+game.AddShapeWithInteraction(game.Shapes[0], 7);
 game.AddShapeWithInteraction(game.Shapes[2], 7);
-game.AddShapeWithInteraction(game.Shapes[0], 5);
 
 // cover entire line
 for (int i = 0; i < Tetris.WIDTH; i++)
