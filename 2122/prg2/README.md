@@ -769,7 +769,7 @@ Rozšiřte [**Tetris**](examples/tetris)
 1. Opravte hru, aby fungovala jak má a korektně skončila (**1 bod**).
 2. Napište umělou inteligenci, která bude solidně hrát (nejprve
    čtverce 1x1, 2x2 a 3x3 a pak pro klasické [tetris tvary](https://en.wikipedia.org/wiki/Tetris#Game_pieces))
-   (**1 bod**)
+   (**2 body**)
 3. Implementujte rotace kostek s tím, že každou náhodně otočte (**1 bod**).
 4. Implementujte animaci pro padající kostičku.
 5. Have fun!
