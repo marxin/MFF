@@ -758,11 +758,11 @@ Implementujte třídu pro parsování a vyhodnocování binárních výrazů:
 8. Vypište nějaký vytvořený strom výrazů do **prefixu** (např. `+ 1 * 3 4`)
 9. Vytvořte nevalidní vstup a zkuste ho ošetřit pomocí výjimek
 
-**Ukázku řešení naleznete [zde](http://www.ms.mff.cuni.cz/~topfermi/vyuka/2122/NPRG031/05/expressions/Program.cs)**.
+**Ukázku řešení naleznete [zde](examples/binary-expressions)**.
 
 ### 13.5.2022 (12. cvičení)
 
-Rozšiřte [**Tetris**](https://github.com/marxin/MFF/tree/main/2122/prg2/examples/tetris)
+Rozšiřte [**Tetris**](examples/tetris)
 
 Úkoly:
 
