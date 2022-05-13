@@ -116,6 +116,13 @@ class Tetris
                 foreach(var point in levelPoints)
                     Points.Remove(point);
 
+                // move all points down by one
+                var newPoints = new Dictionary<Point, ConsoleColor>();
+                foreach(var point in Points.Keys)
+                    newPoints[new Point(point.X, point.Y + 1)] = Points[point];
+
+                Points = newPoints;
+
                 // update score
                 Score += WIDTH;
             }
@@ -133,6 +140,10 @@ class Tetris
                 throw new InvalidOperationException($"Shape X coordinate ({point.X}) out of range");
         };
 
+        // game over
+        if (HasCollision(points))
+            return false;
+
         // let the shape fall down
         while (true)
         {
@@ -144,7 +155,7 @@ class Tetris
         }
 
         foreach (var point in points)
-            Points[point] = shape.Color;
+            Points.Add(point, shape.Color);
 
         Steps++;
         return true;
