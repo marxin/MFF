@@ -773,3 +773,7 @@ Rozšiřte [**Tetris**](examples/tetris)
 3. Implementujte rotace kostek s tím, že každou náhodně otočte (**1 bod**).
 4. Implementujte animaci pro padající kostičku.
 5. Have fun!
+
+### 20.5.2022 (13. cvičení)
+
+**Zápočtový test** (#1)
