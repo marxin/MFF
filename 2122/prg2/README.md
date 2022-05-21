@@ -777,3 +777,7 @@ Rozšiřte [**Tetris**](examples/tetris)
 ### 20.5.2022 (13. cvičení)
 
 **Zápočtový test** (#1)
+
+### **Zápočtový test** (#2)
+
+Druhý zápočtový test se bude konat ???.
