@@ -780,4 +780,4 @@ Rozšiřte [**Tetris**](examples/tetris)
 
 ### **Zápočtový test** (#2)
 
-Druhý zápočtový test se bude konat ???.
+Druhý zápočtový test se bude konat **27.5.2022 v 12:20** v N11.
