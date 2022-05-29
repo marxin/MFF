@@ -12,8 +12,7 @@ Cvičení navazuje na Programování 1 z minulého semestru.
 
 - **Zápočtový test** - Podobně jako v zimním semestru bude třeba naprogramovat funkční řešení zadané úlohy za 90 min.
   Během testu bude možné používat libovolné poznámky, slajdy, dokumentaci jazyka atd.
-  První bude na **posledním cvičení (20.5.2022)**, další termín bude během zkouškového období
-  **27.5.2022**.
+  První bude na **posledním cvičení (20.5.2022)**, další termíny viz. dole na stránce.
 
 - **Zápočtový program** - Rozumně složitý program v jazyce C#.
   * Zadání zápočtového programu musí být schválené do **1.5.** (2 studenti nebudou mít stejné zadání) a pak
@@ -781,3 +780,7 @@ Rozšiřte [**Tetris**](examples/tetris)
 ### **Zápočtový test** (#2)
 
 Druhý zápočtový test se bude konat **27.5.2022 v 12:20** v N11.
+
+### **Zápočtový test** (#3)
+
+Třetí zápočtový test se bude konat **26.9.2022 v 9:00** v N11.
