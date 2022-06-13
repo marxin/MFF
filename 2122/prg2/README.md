@@ -781,6 +781,10 @@ Rozšiřte [**Tetris**](examples/tetris)
 
 Druhý zápočtový test se bude konat **27.5.2022 v 12:20** v N11.
 
-### **Zápočtový test** (#3)
+**Důležité: Jelikož některé testy neodpovídaly zadání, rozhodl jsem se
+po konzultaci s přednášecím nezapočítat test do celkového počtu pokusů (3)!
+Tím pádem další termín bude 2. a pokud někdo bude potřebovat, udělám ještě 3. pokus.**
 
-Třetí zápočtový test se bude konat **26.9.2022 v 9:00** v N11.
+### **Zápočtový test** (~~#3~~ #2)
+
+~~Třetí~~ Druhý zápočtový test se bude konat **26.9.2022 v 9:00** v N11.
